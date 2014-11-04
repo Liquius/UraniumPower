@@ -25,5 +25,15 @@ data:extend({
     subgroup = "raw-material",
     order = "f[yellowcake]",
     stack_size = 50
-  }
+  },
+  {
+    type = "item",
+    name = "centrifuge",
+    icon = "__base__/graphics/icons/chemical-plant.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "production-machine",
+    order = "f[centrifuge]",
+    place_result = "centrifuge",
+    stack_size = 10
+  },
 })

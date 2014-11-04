@@ -49,5 +49,21 @@ data:extend({
     {
       {type="fluid", name="fluorine-gas", amount=5},
     }
-  }
+  },
+
+  {
+    type = "recipe",
+    name = "centrifuge",
+    energy_required = 10,
+    enabled = "true",
+    ingredients =
+    {
+      {"steel-plate", 5},
+      {"iron-gear-wheel", 5},
+      {"electronic-circuit", 5},
+      {"pipe", 5}
+    },
+    result= "centrifuge"
+  },
+
 })

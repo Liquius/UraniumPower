@@ -1,6 +1,8 @@
-require("prototypes.entity.entity")
+require("prototypes.entity.entities")
 require("prototypes.recipe.recipe")
+require("prototypes.recipe.fluid-recipe")
 require("prototypes.item.item")
+require("prototypes.categories.recipe-category")
 
 
 -- Deposit stuff

@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "fluid",
-    name = "uranium-hexafluoride-0.3",
+    name = "uranium-hexafluoride-i",
     default_temperature = 25,
     heat_capacity = "1KJ",
     base_color = {r=0, g=0, b=0},
@@ -16,7 +16,7 @@ data:extend(
 
   {
     type = "fluid",
-    name = "uranium-hexafluoride-0.7",
+    name = "uranium-hexafluoride-ii",
     default_temperature = 25,
     heat_capacity = "1KJ",
     base_color = {r=0, g=0, b=0},
@@ -30,7 +30,7 @@ data:extend(
 
   {
     type = "fluid",
-    name = "uranium-hexafluoride-1.1",
+    name = "uranium-hexafluoride-iii",
     default_temperature = 25,
     heat_capacity = "1KJ",
     base_color = {r=0, g=0, b=0},
@@ -44,7 +44,7 @@ data:extend(
 
   {
     type = "fluid",
-    name = "uranium-hexafluoride-1.5",
+    name = "uranium-hexafluoride-iiii",
     default_temperature = 25,
     heat_capacity = "1KJ",
     base_color = {r=0, g=0, b=0},
