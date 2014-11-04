@@ -14,7 +14,7 @@ data:extend({
     icon = "__nuclearstuff__/graphics/icons/fluorite.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
-    order = "d[fluorite]",
+    order = "e[fluorite]",
     stack_size = 50
   },
   {
