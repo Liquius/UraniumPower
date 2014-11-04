@@ -2,7 +2,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "uranium-hexafluoride-ii",
+    name = "uranium-hexafluoride",
     category = "chemistry",
     enabled = "true",
     energy_required = 5,
@@ -16,7 +16,7 @@ data:extend({
       {type="item", name="empty-barrel", amount=1},
       {type="fluid", name="uranium-hexafluoride-ii", amount=25}
     },
-    icon = "__nuclearstuff__/graphics/icons/uranium-hexafluoride-ii.png",
+    icon = "__nuclearstuff__/graphics/icons/uranium-hexafluoride.png",
     subgroup = "fluid",
     order = "a[oil-processing]-a[basic-oil-processing]"
   },
