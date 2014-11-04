@@ -5,7 +5,7 @@ data:extend(
     name = "uraninite",
     icon = "__nuclearstuff__/graphics/icons/uraninite.png",
     flags = {"placeable-neutral"},
-    order="a-b-d",
+    order="a-b-e",
     minable =
     {
       hardness = 0.4,
@@ -17,7 +17,7 @@ data:extend(
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "uraninite",
+      control = "stone",
       sharpness = 1,
       richness_multiplier = 11000,
       richness_base = 250,
@@ -93,7 +93,7 @@ data:extend(
     name = "fluorite",
     icon = "__nuclearstuff__/graphics/icons/fluorite.png",
     flags = {"placeable-neutral"},
-    order="a-b-d",
+    order="a-b-f",
     minable =
     {
       hardness = 0.4,
@@ -105,7 +105,7 @@ data:extend(
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "fluorite",
+      control = "stone",
       sharpness = 1,
       richness_multiplier = 11000,
       richness_base = 250,

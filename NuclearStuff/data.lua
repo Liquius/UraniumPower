@@ -1,4 +1,4 @@
-require("prototypes.item")
-require("prototypes.recipe")
-require("prototypes.entity")
-require("prototypes.technology")
+require("prototypes.entity.entity")
+require("prototypes.fluid.uraninite-slurry")
+require("prototypes.resources.resources")
+require("prototypes.item.item")
