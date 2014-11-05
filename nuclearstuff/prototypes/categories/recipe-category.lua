@@ -5,4 +5,9 @@ data:extend(
     name = "centrifuge"
   },
 
+  {
+    type = "recipe-category",
+    name = "nuclear-fission-reactor"
+  },
+
 })

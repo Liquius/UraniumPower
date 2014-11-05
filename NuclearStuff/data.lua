@@ -13,6 +13,5 @@ require("prototypes.tile.noise-layers")
 
 
 -- Liquids/Gasses
-require("prototypes.fluid.uraninite-slurry")
-require("prototypes.fluid.fluorine-gas")
+require("prototypes.fluid.fluid")
 require("prototypes.fluid.uranium-hexafluoride")
