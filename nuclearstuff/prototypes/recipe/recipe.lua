@@ -78,7 +78,7 @@ data:extend({
     },
     results=
     {
-      {type="item", name="uranium-depleted", amount=1}
+      {type="item", name="uranium-pellet-depleted", amount=1}
     }
   },
 
@@ -94,7 +94,7 @@ data:extend({
     },
     results=
     {
-      {type="item", name="uranium-i", amount=1}
+      {type="item", name="uranium-pellet-i", amount=1}
     }
   },
 
@@ -110,7 +110,7 @@ data:extend({
     },
     results=
     {
-      {type="item", name="uranium-ii", amount=1}
+      {type="item", name="uranium-pellet-ii", amount=1}
     }
   },
 
@@ -126,7 +126,7 @@ data:extend({
     },
     results=
     {
-      {type="item", name="uranium-iii", amount=1}
+      {type="item", name="uranium-pellet-iii", amount=1}
     }
   },
 
@@ -142,7 +142,7 @@ data:extend({
     },
     results=
     {
-      {type="item", name="uranium-iiii", amount=1}
+      {type="item", name="uranium-pellet-iiii", amount=1}
     }
   },
 
@@ -158,7 +158,7 @@ data:extend({
     },
     results=
     {
-      {type="item", name="uranium-iiiii", amount=1}
+      {type="item", name="uranium-pellet-iiiii", amount=1}
     }
   },
 
@@ -174,7 +174,7 @@ data:extend({
     },
     results=
     {
-      {type="item", name="uranium-iiiiii", amount=1}
+      {type="item", name="uranium-pellet-iiiiii", amount=1}
     }
   },
 
@@ -190,7 +190,7 @@ data:extend({
     },
     results=
     {
-      {type="item", name="uranium-iiiiiii", amount=1}
+      {type="item", name="uranium-pellet-iiiiiii", amount=1}
     }
   },
 
@@ -206,7 +206,7 @@ data:extend({
     },
     results=
     {
-      {type="item", name="uranium-iiiiiiii", amount=1}
+      {type="item", name="uranium-pellet-iiiiiiii", amount=1}
     }
   },
 
@@ -222,7 +222,7 @@ data:extend({
     },
     results=
     {
-      {type="item", name="uranium-iiiiiiiii", amount=1}
+      {type="item", name="uranium-pellet-iiiiiiiii", amount=1}
     }
   },
 
