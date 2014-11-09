@@ -3,7 +3,7 @@ require "defines"
  
 game.onevent(defines.events.onbuiltentity, function(event)
 	if event.createdentity.name == "nuclear-fission-reactor" then 
-		reactor(event.createdentity)
+		reactor = (event.createdentity)
 	end
 end)
 
@@ -11,9 +11,11 @@ end)
 
 
 game.onevent(defines.events.ontick, function(event)
-	if reactor.equals nil then 
-		game.player.print("nopes")
-	elseif reactor.valid then
-		game.player.print("trues")
+	if reactor == nil 
+		then game.player.print("no reactor")
+	elseif reactor.fluidbox == nil
+		then game.player.print("no fuildbox")
+	else
+		fluids = reactor.fluidbox
 	end
 end)
