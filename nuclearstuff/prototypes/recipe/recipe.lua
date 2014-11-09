@@ -1,5 +1,20 @@
 data:extend({
-  
+  {
+    type = "recipe",
+    name = "nuclear-fission-reactor",
+    category = "nuclear-fission-reactor",
+    energy_required = 1,
+    enabled = "true",
+    ingredients =
+    {
+      {type="fluid", name="water", amount=10}
+    },
+    results=
+    {
+      {type="fluid", name="super-heated-water", amount=10}
+    }
+  },
+
   {
     type = "recipe",
     name = "uraninite-slurry",

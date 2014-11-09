@@ -36,4 +36,14 @@ data:extend({
     place_result = "centrifuge",
     stack_size = 10
   },
+  {
+    type = "item",
+    name = "nuclear-fission-reactor",
+    icon = "__base__/graphics/icons/chemical-plant.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "production-machine",
+    order = "f[nuclear-fission-reactor]",
+    place_result = "nuclear-fission-reactor",
+    stack_size = 10
+  },
 })
