@@ -7,15 +7,18 @@ game.onevent(defines.events.onbuiltentity, function(event)
 	end
 end)
 
-
-
+fissionReactorOutput = {}
 
 game.onevent(defines.events.ontick, function(event)
 	if reactor == nil 
 		then game.player.print("no reactor")
-	elseif reactor.fluidbox == nil
-		then game.player.print("no fuildbox")
+	elseif reactor.fluidbox[2] == nil 
+		then game.player.print("nil value from fluidbox")
 	else
-		fluids = reactor.fluidbox
+		fissionReactorOutput = reactor.fluidbox[2]
+		fissionReactorOutput["temperature"] = 100 
+		reactor.fluidbox[2] = fissionReactorOutput
+		game.player.print("should work")
 	end
 end)
+
