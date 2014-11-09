@@ -2,7 +2,7 @@ data:extend({
   {
     type = "item",
     name = "uraninite",
-    icon = "__nuclearstuff__/graphics/icons/uraninite.png",
+    icon = "__NuclearStuff__/graphics/icons/uraninite.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "d[uraninite]",
@@ -11,7 +11,7 @@ data:extend({
   {
     type = "item",
     name = "fluorite",
-    icon = "__nuclearstuff__/graphics/icons/fluorite.png",
+    icon = "__NuclearStuff__/graphics/icons/fluorite.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "e[fluorite]",
@@ -20,7 +20,7 @@ data:extend({
   {
     type = "item",
     name = "yellowcake",
-    icon = "__nuclearstuff__/graphics/icons/yellowcake.png",
+    icon = "__NuclearStuff__/graphics/icons/yellowcake.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "f[yellowcake]",

@@ -3,7 +3,7 @@ data:extend(
   {
     type = "resource",
     name = "uraninite",
-    icon = "__nuclearstuff__/graphics/icons/uraninite.png",
+    icon = "__NuclearStuff__/graphics/icons/uraninite.png",
     flags = {"placeable-neutral"},
     order="a-b-e",
     minable =
@@ -93,7 +93,7 @@ data:extend(
     stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},
     stages =
     {
-      filename = "__nuclearstuff__/graphics/entity/uraninite/uraninite.png",
+      filename = "__NuclearStuff__/graphics/entity/uraninite/uraninite.png",
       priority = "extra-high",
       width = 38,
       height = 38,
@@ -105,7 +105,7 @@ data:extend(
   {
     type = "resource",
     name = "fluorite",
-    icon = "__nuclearstuff__/graphics/icons/fluorite.png",
+    icon = "__NuclearStuff__/graphics/icons/fluorite.png",
     flags = {"placeable-neutral"},
     order="a-b-f",
     minable =
@@ -195,7 +195,7 @@ data:extend(
     stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},
     stages =
     {
-      filename = "__nuclearstuff__/graphics/entity/fluorite/fluorite.png",
+      filename = "__NuclearStuff__/graphics/entity/fluorite/fluorite.png",
       priority = "extra-high",
       width = 38,
       height = 38,

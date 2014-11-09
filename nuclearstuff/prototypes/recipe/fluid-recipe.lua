@@ -16,7 +16,7 @@ data:extend({
       {type="item", name="empty-barrel", amount=1},
       {type="fluid", name="uranium-hexafluoride-ii", amount=25}
     },
-    icon = "__nuclearstuff__/graphics/icons/uranium-hexafluoride.png",
+    icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride.png",
     subgroup = "fluid",
     order = "a[oil-processing]-a[basic-oil-processing]"
   },
@@ -36,7 +36,7 @@ data:extend({
       {type="fluid", name="uranium-hexafluoride-ii", amount=10},
       {type="fluid", name="uranium-hexafluoride-depleted", amount=15}
     },
-    icon = "__nuclearstuff__/graphics/icons/uranium-hexafluoride-ii.png",
+    icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-ii.png",
     subgroup = "fluid",
     order = "a[oil-processing]-a[basic-oil-processing]"
   },
@@ -56,7 +56,7 @@ data:extend({
       {type="fluid", name="uranium-hexafluoride-iii", amount=10},
       {type="fluid", name="uranium-hexafluoride-i", amount=15}
     },
-    icon = "__nuclearstuff__/graphics/icons/uranium-hexafluoride-iii.png",
+    icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iii.png",
     subgroup = "fluid",
     order = "a[oil-processing]-a[basic-oil-processing]"
   },
@@ -76,7 +76,7 @@ data:extend({
       {type="fluid", name="uranium-hexafluoride-iiii", amount=10},
       {type="fluid", name="uranium-hexafluoride-ii", amount=15}
     },
-    icon = "__nuclearstuff__/graphics/icons/uranium-hexafluoride-iiii.png",
+    icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiii.png",
     subgroup = "fluid",
     order = "a[oil-processing]-a[basic-oil-processing]"
   },
@@ -96,7 +96,7 @@ data:extend({
       {type="fluid", name="uranium-hexafluoride-iiiii", amount=10},
       {type="fluid", name="uranium-hexafluoride-iii", amount=15}
     },
-    icon = "__nuclearstuff__/graphics/icons/uranium-hexafluoride-iiiii.png",
+    icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiiii.png",
     subgroup = "fluid",
     order = "a[oil-processing]-a[basic-oil-processing]"
   },
@@ -116,7 +116,7 @@ data:extend({
       {type="fluid", name="uranium-hexafluoride-iiiiii", amount=10},
       {type="fluid", name="uranium-hexafluoride-iiii", amount=15}
     },
-    icon = "__nuclearstuff__/graphics/icons/uranium-hexafluoride-iiiiii.png",
+    icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiiiii.png",
     subgroup = "fluid",
     order = "a[oil-processing]-a[basic-oil-processing]"
   },
@@ -136,7 +136,7 @@ data:extend({
       {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=10},
       {type="fluid", name="uranium-hexafluoride-iiiii", amount=15}
     },
-    icon = "__nuclearstuff__/graphics/icons/uranium-hexafluoride-iiiiiii.png",
+    icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiiiiii.png",
     subgroup = "fluid",
     order = "a[oil-processing]-a[basic-oil-processing]"
   },
@@ -156,7 +156,7 @@ data:extend({
       {type="fluid", name="uranium-hexafluoride-iiiiiiii", amount=10},
       {type="fluid", name="uranium-hexafluoride-iiiiii", amount=15}
     },
-    icon = "__nuclearstuff__/graphics/icons/uranium-hexafluoride-iiiiiiii.png",
+    icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiiiiiii.png",
     subgroup = "fluid",
     order = "a[oil-processing]-a[basic-oil-processing]"
   },
@@ -176,7 +176,7 @@ data:extend({
       {type="fluid", name="uranium-hexafluoride-iiiiiiiii", amount=10},
       {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=15}
     },
-    icon = "__nuclearstuff__/graphics/icons/uranium-hexafluoride-iiiiiiiii.png",
+    icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiiiiiiii.png",
     subgroup = "fluid",
     order = "a[oil-processing]-a[basic-oil-processing]"
   },
