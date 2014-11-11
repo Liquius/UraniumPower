@@ -1,9 +1,13 @@
 require("prototypes.entity.entities")
+
 require("prototypes.recipe.recipe")
 require("prototypes.recipe.fluid-recipe")
+require("prototypes.recipe.fuel-assembly-recipe")
+
 require("prototypes.item.item")
 require("prototypes.item.item-uranium")
-require("prototypes.item.module")
+require("prototypes.item.fuel-assembly-item")
+
 require("prototypes.categories.recipe-category")
 
 
