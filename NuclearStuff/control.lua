@@ -27,8 +27,10 @@ game.onevent(defines.events.ontick, function(event)
 					fissionReactorOutput = LReactor[1].fluidbox[2]
 					fissionReactorOutput["temperature"] = 100 
 					LReactor[1].fluidbox[2] = fissionReactorOutput
-					game.player.print("should work")
 				end
+			else
+				table.remove(glob.LReactor, k)
+				game.player.print("Reactor removed")
 			end
 		end
 	end
