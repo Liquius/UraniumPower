@@ -3,6 +3,7 @@ require("prototypes.recipe.recipe")
 require("prototypes.recipe.fluid-recipe")
 require("prototypes.item.item")
 require("prototypes.item.item-uranium")
+require("prototypes.item.module")
 require("prototypes.categories.recipe-category")
 
 
