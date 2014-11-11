@@ -7,11 +7,11 @@ data:extend({
     enabled = "true",
     ingredients =
     {
-      {type="fluid", name="water", amount=10}
+      {type="fluid", name="water", amount=50}
     },
     results=
     {
-      {type="fluid", name="super-heated-water", amount=10}
+      {type="fluid", name="super-heated-water", amount=50}
     }
   },
 

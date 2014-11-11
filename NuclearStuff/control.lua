@@ -25,7 +25,7 @@ game.onevent(defines.events.ontick, function(event)
 				if LReactor[1].fluidbox[2] ~= nil then
 					fissionReactorOutput = {}
 					fissionReactorOutput = LReactor[1].fluidbox[2]
-					fissionReactorOutput["temperature"] = 100 
+					fissionReactorOutput["temperature"] = 275 
 					LReactor[1].fluidbox[2] = fissionReactorOutput
 				end
 			else

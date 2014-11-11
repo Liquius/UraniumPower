@@ -8,13 +8,13 @@ data:extend({
     energy_required = 5,
     ingredients =
     {
-      {type="fluid", name="fluorine-gas", amount=25},
+      {type="fluid", name="fluorine-gas", amount=50},
       {type="item", name="yellowcake", amount=1}
     },
     results=
     {
       {type="item", name="empty-barrel", amount=1},
-      {type="fluid", name="uranium-hexafluoride-ii", amount=25}
+      {type="fluid", name="uranium-hexafluoride-ii", amount=50}
     },
     icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride.png",
     subgroup = "fluid",
@@ -29,11 +29,11 @@ data:extend({
     energy_required = 5,
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-i", amount=25},
+      {type="fluid", name="uranium-hexafluoride-i", amount=20},
     },
     results=
     {
-      {type="fluid", name="uranium-hexafluoride-ii", amount=10},
+      {type="fluid", name="uranium-hexafluoride-ii", amount=5},
       {type="fluid", name="uranium-hexafluoride-depleted", amount=15}
     },
     icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-ii.png",
@@ -49,12 +49,12 @@ data:extend({
     energy_required = 5,
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-ii", amount=25},
+      {type="fluid", name="uranium-hexafluoride-ii", amount=20},
     },
     results=
     {
       {type="fluid", name="uranium-hexafluoride-iii", amount=10},
-      {type="fluid", name="uranium-hexafluoride-i", amount=15}
+      {type="fluid", name="uranium-hexafluoride-i", amount=10}
     },
     icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iii.png",
     subgroup = "fluid",
@@ -69,12 +69,12 @@ data:extend({
     energy_required = 5,
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iii", amount=25},
+      {type="fluid", name="uranium-hexafluoride-iii", amount=20},
     },
     results=
     {
       {type="fluid", name="uranium-hexafluoride-iiii", amount=10},
-      {type="fluid", name="uranium-hexafluoride-ii", amount=15}
+      {type="fluid", name="uranium-hexafluoride-ii", amount=10}
     },
     icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiii.png",
     subgroup = "fluid",
@@ -89,12 +89,12 @@ data:extend({
     energy_required = 5,
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiii", amount=25},
+      {type="fluid", name="uranium-hexafluoride-iiii", amount=20},
     },
     results=
     {
       {type="fluid", name="uranium-hexafluoride-iiiii", amount=10},
-      {type="fluid", name="uranium-hexafluoride-iii", amount=15}
+      {type="fluid", name="uranium-hexafluoride-iii", amount=10}
     },
     icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiiii.png",
     subgroup = "fluid",
@@ -109,12 +109,12 @@ data:extend({
     energy_required = 5,
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiii", amount=25},
+      {type="fluid", name="uranium-hexafluoride-iiiii", amount=20},
     },
     results=
     {
       {type="fluid", name="uranium-hexafluoride-iiiiii", amount=10},
-      {type="fluid", name="uranium-hexafluoride-iiii", amount=15}
+      {type="fluid", name="uranium-hexafluoride-iiii", amount=10}
     },
     icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiiiii.png",
     subgroup = "fluid",
@@ -129,12 +129,12 @@ data:extend({
     energy_required = 5,
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiiii", amount=25},
+      {type="fluid", name="uranium-hexafluoride-iiiiii", amount=20},
     },
     results=
     {
       {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=10},
-      {type="fluid", name="uranium-hexafluoride-iiiii", amount=15}
+      {type="fluid", name="uranium-hexafluoride-iiiii", amount=10}
     },
     icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiiiiii.png",
     subgroup = "fluid",
@@ -149,12 +149,12 @@ data:extend({
     energy_required = 5,
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=25},
+      {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=20},
     },
     results=
     {
       {type="fluid", name="uranium-hexafluoride-iiiiiiii", amount=10},
-      {type="fluid", name="uranium-hexafluoride-iiiiii", amount=15}
+      {type="fluid", name="uranium-hexafluoride-iiiiii", amount=10}
     },
     icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiiiiiii.png",
     subgroup = "fluid",
@@ -169,12 +169,12 @@ data:extend({
     energy_required = 5,
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiiiiii", amount=25},
+      {type="fluid", name="uranium-hexafluoride-iiiiiiii", amount=20},
     },
     results=
     {
       {type="fluid", name="uranium-hexafluoride-iiiiiiiii", amount=10},
-      {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=15}
+      {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=10}
     },
     icon = "__NuclearStuff__/graphics/icons/uranium-hexafluoride-iiiiiiiii.png",
     subgroup = "fluid",

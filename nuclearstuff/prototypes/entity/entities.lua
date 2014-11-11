@@ -68,13 +68,13 @@ data:extend({
     energy_source =
     {
       type = "electric",
-      usage_priority = "secondary-input",
+      usage_priority = "primary-input",
       emissions = 0.03 / 3.5
     },
     energy_usage = "210kW",
     ingredient_count = 4,
     module_slots = 4,
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"}
+    allowed_effects = {"speed"}
   },
 
 
