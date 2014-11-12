@@ -83,7 +83,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "uranium-depleted",
+    name = "uranium-pellet-depleted",
     category = "crafting-with-fluid",
     energy_required = 1,
     enabled = "true",
@@ -99,7 +99,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "uranium-i",
+    name = "uranium-pellet-i",
     category = "crafting-with-fluid",
     energy_required = 1,
     enabled = "true",
@@ -115,7 +115,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "uranium-ii",
+    name = "uranium-pellet-ii",
     category = "crafting-with-fluid",
     energy_required = 1,
     enabled = "true",
@@ -131,7 +131,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "uranium-iii",
+    name = "uranium-pellet-iii",
     category = "crafting-with-fluid",
     energy_required = 1,
     enabled = "true",
@@ -147,7 +147,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "uranium-iiii",
+    name = "uranium-pellet-iiii",
     category = "crafting-with-fluid",
     energy_required = 1,
     enabled = "true",
@@ -163,7 +163,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "uranium-iiiii",
+    name = "uranium-pellet-iiiii",
     category = "crafting-with-fluid",
     energy_required = 1,
     enabled = "true",
@@ -179,7 +179,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "uranium-iiiiii",
+    name = "uranium-pellet-iiiiii",
     category = "crafting-with-fluid",
     energy_required = 1,
     enabled = "true",
@@ -195,7 +195,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "uranium-iiiiiii",
+    name = "uranium-pellet-iiiiiii",
     category = "crafting-with-fluid",
     energy_required = 1,
     enabled = "true",
@@ -211,7 +211,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "uranium-iiiiiiii",
+    name = "uranium-pellet-iiiiiiii",
     category = "crafting-with-fluid",
     energy_required = 1,
     enabled = "true",
@@ -227,7 +227,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "uranium-iiiiiiiii",
+    name = "uranium-pellet-iiiiiiiii",
     category = "crafting-with-fluid",
     energy_required = 1,
     enabled = "true",

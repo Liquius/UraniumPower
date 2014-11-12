@@ -5,10 +5,12 @@ require("prototypes.recipe.fluid-recipe")
 require("prototypes.recipe.fuel-assembly-recipe")
 
 require("prototypes.item.item")
-require("prototypes.item.item-uranium")
+require("prototypes.item.uranium-pellet-item")
 require("prototypes.item.fuel-assembly-item")
 
 require("prototypes.categories.recipe-category")
+
+require("prototypes.technology.technology")
 
 
 -- Deposit stuff
