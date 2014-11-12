@@ -55,13 +55,41 @@ data:extend({
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation =
     {
-      filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
-      priority = "high",
-      width = 142,
-      height = 113,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.84, -0.09}
+      north =
+      {
+        filename = "__NuclearStuff__/graphics/entity/nuclear-fission-reactor/nuclear-fission-reactor.png",
+        width = 156,
+        height = 141,
+        frame_count = 1,
+        shift = {0.5, -0.078125}
+      },
+      west =
+      {
+        filename = "__NuclearStuff__/graphics/entity/nuclear-fission-reactor/nuclear-fission-reactor.png",
+        x = 156,
+        width = 156,
+        height = 141,
+        frame_count = 1,
+        shift = {0.5, -0.078125}
+      },
+      south =
+      {
+        filename = "__NuclearStuff__/graphics/entity/nuclear-fission-reactor/nuclear-fission-reactor.png",
+        x = 312,
+        width = 156,
+        height = 141,
+        frame_count = 1,
+        shift = {0.5, -0.078125}
+      },
+      east =
+      {
+        filename = "__NuclearStuff__/graphics/entity/nuclear-fission-reactor/nuclear-fission-reactor.png",
+        x = 468,
+        width = 156,
+        height = 141,
+        frame_count = 1,
+        shift = {0.5, -0.078125}
+      }
     },
     crafting_categories = {"nuclear-fission-reactor"},
     crafting_speed = 0.1,
