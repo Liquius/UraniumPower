@@ -13,6 +13,10 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "nuclear-fission-reactor-on"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "uraninite-slurry"
       },
       {

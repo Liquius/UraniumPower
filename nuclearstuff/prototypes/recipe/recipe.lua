@@ -2,6 +2,20 @@ data:extend({
   {
     type = "recipe",
     name = "nuclear-fission-reactor",
+    enabled = "false",
+    ingredients =
+    {
+      {"steel-plate", 45},
+      {"iron-gear-wheel", 45},
+      {"advanced-circuit", 45}
+    },
+    result = "nuclear-fission-reactor",
+    energy_required = 15
+  },
+
+  {
+    type = "recipe",
+    name = "nuclear-fission-reactor-on",
     category = "nuclear-fission-reactor",
     energy_required = 1,
     enabled = "true",
