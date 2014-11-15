@@ -27,10 +27,12 @@ data:extend(
         type = "unlock-recipe",
         recipe = "fluorine-gas"
       },
+--[[
       {
         type = "unlock-recipe",
         recipe = "centrifuge"
       },
+]]
       {
         type = "unlock-recipe",
         recipe = "fuel-assembly-i"

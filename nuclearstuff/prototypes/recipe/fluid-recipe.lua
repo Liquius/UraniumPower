@@ -24,7 +24,7 @@ data:extend({
   {
     type = "recipe",
     name = "uranium-hexafluoride-ii",
-    category = "centrifuge",
+    category = "chemistry",
     enabled = "true",
     energy_required = 5,
     ingredients =
@@ -44,7 +44,7 @@ data:extend({
   {
     type = "recipe",
     name = "uranium-hexafluoride-iii",
-    category = "centrifuge",
+    category = "chemistry",
     enabled = "true",
     energy_required = 5,
     ingredients =
@@ -64,7 +64,7 @@ data:extend({
   {
     type = "recipe",
     name = "uranium-hexafluoride-iiii",
-    category = "centrifuge",
+    category = "chemistry",
     enabled = "true",
     energy_required = 5,
     ingredients =
@@ -84,7 +84,7 @@ data:extend({
   {
     type = "recipe",
     name = "uranium-hexafluoride-iiiii",
-    category = "centrifuge",
+    category = "chemistry",
     enabled = "true",
     energy_required = 5,
     ingredients =
@@ -104,7 +104,7 @@ data:extend({
   {
     type = "recipe",
     name = "uranium-hexafluoride-iiiiii",
-    category = "centrifuge",
+    category = "chemistry",
     enabled = "true",
     energy_required = 5,
     ingredients =
@@ -124,7 +124,7 @@ data:extend({
   {
     type = "recipe",
     name = "uranium-hexafluoride-iiiiiii",
-    category = "centrifuge",
+    category = "chemistry",
     enabled = "true",
     energy_required = 5,
     ingredients =
@@ -144,7 +144,7 @@ data:extend({
   {
     type = "recipe",
     name = "uranium-hexafluoride-iiiiiiii",
-    category = "centrifuge",
+    category = "chemistry",
     enabled = "true",
     energy_required = 5,
     ingredients =
@@ -164,7 +164,7 @@ data:extend({
   {
     type = "recipe",
     name = "uranium-hexafluoride-iiiiiiiii",
-    category = "centrifuge",
+    category = "chemistry",
     enabled = "true",
     energy_required = 5,
     ingredients =

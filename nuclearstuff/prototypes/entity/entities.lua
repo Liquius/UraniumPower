@@ -88,7 +88,7 @@ data:extend({
     allowed_effects = {"speed"}
   },
 
-
+--[[
   {
     type = "assembling-machine",
     name = "centrifuge",
@@ -237,5 +237,5 @@ data:extend({
       }
     }
   },
-
+]]
 })

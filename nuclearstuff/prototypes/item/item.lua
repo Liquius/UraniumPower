@@ -26,6 +26,7 @@ data:extend({
     order = "f[yellowcake]",
     stack_size = 50
   },
+--[[  
   {
     type = "item",
     name = "centrifuge",
@@ -36,6 +37,7 @@ data:extend({
     place_result = "centrifuge",
     stack_size = 10
   },
+]]
   {
     type = "item",
     name = "nuclear-fission-reactor",

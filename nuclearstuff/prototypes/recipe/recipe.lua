@@ -79,7 +79,7 @@ data:extend({
       {type="fluid", name="fluorine-gas", amount=5},
     }
   },
-
+--[[
   {
     type = "recipe",
     name = "centrifuge",
@@ -94,7 +94,7 @@ data:extend({
     },
     result= "centrifuge"
   },
-
+]]
   {
     type = "recipe",
     name = "uranium-pellet-depleted",
