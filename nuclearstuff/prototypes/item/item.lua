@@ -39,7 +39,7 @@ data:extend({
   {
     type = "item",
     name = "nuclear-fission-reactor",
-    icon = "__base__/graphics/icons/chemical-plant.png",
+    icon = "__NuclearStuff__/graphics/icons/nuclear-fission-reactor.png",
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
     order = "f[nuclear-fission-reactor]",
