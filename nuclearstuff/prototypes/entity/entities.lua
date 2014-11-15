@@ -19,7 +19,6 @@ data:extend({
     {
       {
         production_type = "input",
-        pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
         base_area = 10,
         base_level = -1,
@@ -27,11 +26,24 @@ data:extend({
       },
       {
         production_type = "output",
-        pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
         base_area = 10,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0, 2} }}
+      },
+      {
+        production_type = "output",
+        pipe_covers = pipecoverspictures(),
+        base_area = 10,
+        base_level = 1,
+        pipe_connections = {{ type="output", position = {2, 0} }}
+      },
+      {
+        production_type = "output",
+        pipe_covers = pipecoverspictures(),
+        base_area = 10,
+        base_level = 1,
+        pipe_connections = {{ type="output", position = {-2, 0} }}
       }
     },
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
@@ -51,45 +63,16 @@ data:extend({
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     },
-    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
+    collision_box = {{-1.3, -1.3}, {1.3, 1.3}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation =
     {
-      north =
-      {
-        filename = "__NuclearStuff__/graphics/entity/nuclear-fission-reactor/nuclear-fission-reactor.png",
-        width = 156,
-        height = 141,
-        frame_count = 1,
-        shift = {0.5, -0.078125}
-      },
-      west =
-      {
-        filename = "__NuclearStuff__/graphics/entity/nuclear-fission-reactor/nuclear-fission-reactor.png",
-        x = 156,
-        width = 156,
-        height = 141,
-        frame_count = 1,
-        shift = {0.5, -0.078125}
-      },
-      south =
-      {
-        filename = "__NuclearStuff__/graphics/entity/nuclear-fission-reactor/nuclear-fission-reactor.png",
-        x = 312,
-        width = 156,
-        height = 141,
-        frame_count = 1,
-        shift = {0.5, -0.078125}
-      },
-      east =
-      {
-        filename = "__NuclearStuff__/graphics/entity/nuclear-fission-reactor/nuclear-fission-reactor.png",
-        x = 468,
-        width = 156,
-        height = 141,
-        frame_count = 1,
-        shift = {0.5, -0.078125}
-      }
+      filename = "__NuclearStuff__/graphics/entity/nuclear-fission-reactor/nuclear-fission-reactor.png",
+      priority="high",
+      width = 140,
+      height = 120,
+      frame_count = 1,
+      shift = {0.46, 0}
     },
     crafting_categories = {"nuclear-fission-reactor"},
     crafting_speed = 0.1,
