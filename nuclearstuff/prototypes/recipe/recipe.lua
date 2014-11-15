@@ -18,7 +18,7 @@ data:extend({
     name = "nuclear-fission-reactor-on",
     category = "nuclear-fission-reactor",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="water", amount=50}
@@ -34,7 +34,7 @@ data:extend({
     name = "uraninite-slurry",
     category = "crafting-with-fluid",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="item", name="uraninite", amount=5},
@@ -51,7 +51,7 @@ data:extend({
     name = "yellowcake",
     category = "chemistry",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="sulfuric-acid", amount=5},
@@ -69,7 +69,7 @@ data:extend({
     name = "fluorine-gas",
     category = "chemistry",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {     
       {type="item", name="fluorite", amount=1} 
@@ -84,7 +84,7 @@ data:extend({
     type = "recipe",
     name = "centrifuge",
     energy_required = 10,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"steel-plate", 5},
@@ -100,7 +100,7 @@ data:extend({
     name = "uranium-pellet-depleted",
     category = "crafting-with-fluid",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-depleted", amount=50}
@@ -116,7 +116,7 @@ data:extend({
     name = "uranium-pellet-i",
     category = "crafting-with-fluid",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-i", amount=50}
@@ -132,7 +132,7 @@ data:extend({
     name = "uranium-pellet-ii",
     category = "crafting-with-fluid",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-ii", amount=50}
@@ -148,7 +148,7 @@ data:extend({
     name = "uranium-pellet-iii",
     category = "crafting-with-fluid",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-iii", amount=50}
@@ -164,7 +164,7 @@ data:extend({
     name = "uranium-pellet-iiii",
     category = "crafting-with-fluid",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-iiii", amount=50}
@@ -180,7 +180,7 @@ data:extend({
     name = "uranium-pellet-iiiii",
     category = "crafting-with-fluid",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-iiiii", amount=50}
@@ -196,7 +196,7 @@ data:extend({
     name = "uranium-pellet-iiiiii",
     category = "crafting-with-fluid",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-iiiiii", amount=50}
@@ -212,7 +212,7 @@ data:extend({
     name = "uranium-pellet-iiiiiii",
     category = "crafting-with-fluid",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=50}
@@ -228,7 +228,7 @@ data:extend({
     name = "uranium-pellet-iiiiiiii",
     category = "crafting-with-fluid",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-iiiiiiii", amount=50}
@@ -244,7 +244,7 @@ data:extend({
     name = "uranium-pellet-iiiiiiiii",
     category = "crafting-with-fluid",
     energy_required = 1,
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-iiiiiiiii", amount=50}

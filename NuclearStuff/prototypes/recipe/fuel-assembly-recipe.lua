@@ -3,7 +3,7 @@ data:extend(
   {
     type = "recipe",
     name = "fuel-assembly-i",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"uranium-pellet-i", 50},
@@ -14,7 +14,7 @@ data:extend(
   {
     type = "recipe",
     name = "fuel-assembly-ii",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"uranium-pellet-ii", 50},
@@ -25,7 +25,7 @@ data:extend(
   {
     type = "recipe",
     name = "fuel-assembly-iii",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"uranium-pellet-iii", 50},
@@ -36,7 +36,7 @@ data:extend(
   {
     type = "recipe",
     name = "fuel-assembly-iiii",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"uranium-pellet-iiii", 50},
@@ -47,7 +47,7 @@ data:extend(
   {
     type = "recipe",
     name = "fuel-assembly-iiiii",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"uranium-pellet-iiiii", 50},
@@ -58,7 +58,7 @@ data:extend(
   {
     type = "recipe",
     name = "fuel-assembly-iiiiii",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"uranium-pellet-iiiiii", 50},
@@ -69,7 +69,7 @@ data:extend(
   {
     type = "recipe",
     name = "fuel-assembly-iiiiiii",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"uranium-pellet-iiiiiii", 50},
@@ -80,7 +80,7 @@ data:extend(
   {
     type = "recipe",
     name = "fuel-assembly-iiiiiiii",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"uranium-pellet-iiiiiiii", 50},
@@ -91,7 +91,7 @@ data:extend(
   {
     type = "recipe",
     name = "fuel-assembly-iiiiiiiii",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"uranium-pellet-iiiiiiiii", 50},
