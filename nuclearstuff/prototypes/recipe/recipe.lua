@@ -110,7 +110,7 @@ data:extend({
       {type="item", name="uranium-pellet-depleted", amount=1}
     }
   },
-
+--[[
   {
     type = "recipe",
     name = "uranium-pellet-i",
@@ -158,7 +158,7 @@ data:extend({
       {type="item", name="uranium-pellet-iii", amount=1}
     }
   },
-
+]]
   {
     type = "recipe",
     name = "uranium-pellet-iiii",
