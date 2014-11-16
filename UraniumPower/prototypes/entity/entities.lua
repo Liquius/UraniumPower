@@ -67,7 +67,7 @@ data:extend({
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation =
     {
-      filename = "__NuclearStuff__/graphics/entity/nuclear-fission-reactor/nuclear-fission-reactor.png",
+      filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/nuclear-fission-reactor.png",
       priority="high",
       width = 140,
       height = 120,

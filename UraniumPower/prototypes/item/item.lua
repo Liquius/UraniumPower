@@ -2,7 +2,7 @@ data:extend({
   {
     type = "item",
     name = "uraninite",
-    icon = "__NuclearStuff__/graphics/icons/uraninite.png",
+    icon = "__UraniumPower__/graphics/icons/uraninite.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "d[uraninite]",
@@ -11,7 +11,7 @@ data:extend({
   {
     type = "item",
     name = "fluorite",
-    icon = "__NuclearStuff__/graphics/icons/fluorite.png",
+    icon = "__UraniumPower__/graphics/icons/fluorite.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "e[fluorite]",
@@ -20,7 +20,7 @@ data:extend({
   {
     type = "item",
     name = "yellowcake",
-    icon = "__NuclearStuff__/graphics/icons/yellowcake.png",
+    icon = "__UraniumPower__/graphics/icons/yellowcake.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "f[yellowcake]",
@@ -41,7 +41,7 @@ data:extend({
   {
     type = "item",
     name = "nuclear-fission-reactor",
-    icon = "__NuclearStuff__/graphics/icons/nuclear-fission-reactor.png",
+    icon = "__UraniumPower__/graphics/icons/nuclear-fission-reactor.png",
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
     order = "f[nuclear-fission-reactor]",

@@ -4,7 +4,7 @@ data:extend(
   {
     type = "module",
     name = "fuel-assembly-i",
-    icon = "__NuclearStuff__/graphics/icons/fuel-assembly-i.png",
+    icon = "__UraniumPower__/graphics/icons/fuel-assembly-i.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
@@ -14,7 +14,7 @@ data:extend(
   {
     type = "module",
     name = "fuel-assembly-ii",
-    icon = "__NuclearStuff__/graphics/icons/fuel-assembly-ii.png",
+    icon = "__UraniumPower__/graphics/icons/fuel-assembly-ii.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
@@ -24,7 +24,7 @@ data:extend(
   {
     type = "module",
     name = "fuel-assembly-iii",
-    icon = "__NuclearStuff__/graphics/icons/fuel-assembly-iii.png",
+    icon = "__UraniumPower__/graphics/icons/fuel-assembly-iii.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
@@ -35,7 +35,7 @@ data:extend(
   {
     type = "module",
     name = "fuel-assembly-iiii",
-    icon = "__NuclearStuff__/graphics/icons/fuel-assembly-iiii.png",
+    icon = "__UraniumPower__/graphics/icons/fuel-assembly-iiii.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
@@ -45,7 +45,7 @@ data:extend(
   {
     type = "module",
     name = "fuel-assembly-iiiii",
-    icon = "__NuclearStuff__/graphics/icons/fuel-assembly-iiiii.png",
+    icon = "__UraniumPower__/graphics/icons/fuel-assembly-iiiii.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
@@ -55,7 +55,7 @@ data:extend(
   {
     type = "module",
     name = "fuel-assembly-iiiiii",
-    icon = "__NuclearStuff__/graphics/icons/fuel-assembly-iiiiii.png",
+    icon = "__UraniumPower__/graphics/icons/fuel-assembly-iiiiii.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
@@ -65,7 +65,7 @@ data:extend(
   {
     type = "module",
     name = "fuel-assembly-iiiiiii",
-    icon = "__NuclearStuff__/graphics/icons/fuel-assembly-iiiiiii.png",
+    icon = "__UraniumPower__/graphics/icons/fuel-assembly-iiiiiii.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
@@ -75,7 +75,7 @@ data:extend(
   {
     type = "module",
     name = "fuel-assembly-iiiiiiii",
-    icon = "__NuclearStuff__/graphics/icons/fuel-assembly-iiiiiiii.png",
+    icon = "__UraniumPower__/graphics/icons/fuel-assembly-iiiiiiii.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
@@ -85,7 +85,7 @@ data:extend(
   {
     type = "module",
     name = "fuel-assembly-iiiiiiiii",
-    icon = "__NuclearStuff__/graphics/icons/fuel-assembly-iiiiiiiii.png",
+    icon = "__UraniumPower__/graphics/icons/fuel-assembly-iiiiiiiii.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",

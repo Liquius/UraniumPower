@@ -3,7 +3,7 @@ data:extend(
   {
     type = "technology",
     name = "uranium-processing",
-    icon = "__NuclearStuff__/graphics/technology/uranium-processing.png",
+    icon = "__UraniumPower__/graphics/technology/uranium-processing.png",
     prerequisites = {"sulfur-processing"},
     effects =
     {
