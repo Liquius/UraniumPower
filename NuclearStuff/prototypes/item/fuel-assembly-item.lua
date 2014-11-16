@@ -1,5 +1,6 @@
 data:extend(
 {
+--[[
   {
     type = "module",
     name = "fuel-assembly-i",
@@ -30,6 +31,7 @@ data:extend(
     stack_size = 50,
     effect = { speed = {bonus = 2}}
   },
+]]
   {
     type = "module",
     name = "fuel-assembly-iiii",

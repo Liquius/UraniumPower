@@ -17,15 +17,15 @@ data:extend({
     type = "recipe",
     name = "nuclear-fission-reactor-on",
     category = "nuclear-fission-reactor",
-    energy_required = 1,
+    energy_required = 15,
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="water", amount=50}
+      {type="fluid", name="water", amount=40}
     },
     results=
     {
-      {type="fluid", name="super-heated-water", amount=50}
+      {type="fluid", name="super-heated-water", amount=40}
     }
   },
 
@@ -55,7 +55,7 @@ data:extend({
     ingredients =
     {
       {type="fluid", name="sulfuric-acid", amount=5},
-      {type="fluid", name="uraninite-slurry", amount=5},
+      {type="fluid", name="uraninite-slurry", amount=10},
       {type="item", name="empty-barrel", amount=1} 
     },
     results=
@@ -76,7 +76,7 @@ data:extend({
     },
     results=
     {
-      {type="fluid", name="fluorine-gas", amount=5},
+      {type="fluid", name="fluorine-gas", amount=15},
     }
   },
 --[[
@@ -103,7 +103,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-depleted", amount=50}
+      {type="fluid", name="uranium-hexafluoride-depleted", amount=25}
     },
     results=
     {
@@ -119,7 +119,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-i", amount=50}
+      {type="fluid", name="uranium-hexafluoride-i", amount=25}
     },
     results=
     {
@@ -135,7 +135,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-ii", amount=50}
+      {type="fluid", name="uranium-hexafluoride-ii", amount=25}
     },
     results=
     {
@@ -151,7 +151,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iii", amount=50}
+      {type="fluid", name="uranium-hexafluoride-iii", amount=25}
     },
     results=
     {
@@ -167,7 +167,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiii", amount=50}
+      {type="fluid", name="uranium-hexafluoride-iiii", amount=25}
     },
     results=
     {
@@ -183,7 +183,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiii", amount=50}
+      {type="fluid", name="uranium-hexafluoride-iiiii", amount=25}
     },
     results=
     {
@@ -199,7 +199,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiiii", amount=50}
+      {type="fluid", name="uranium-hexafluoride-iiiiii", amount=25}
     },
     results=
     {
@@ -215,7 +215,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=50}
+      {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=25}
     },
     results=
     {
@@ -231,7 +231,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiiiiii", amount=50}
+      {type="fluid", name="uranium-hexafluoride-iiiiiiii", amount=25}
     },
     results=
     {
@@ -247,7 +247,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiiiiiii", amount=50}
+      {type="fluid", name="uranium-hexafluoride-iiiiiiiii", amount=25}
     },
     results=
     {

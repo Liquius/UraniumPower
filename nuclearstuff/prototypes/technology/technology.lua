@@ -33,6 +33,7 @@ data:extend(
         recipe = "centrifuge"
       },
 ]]
+--[[
       {
         type = "unlock-recipe",
         recipe = "fuel-assembly-i"
@@ -45,6 +46,7 @@ data:extend(
         type = "unlock-recipe",
         recipe = "fuel-assembly-iii"
       },
+]]
       {
         type = "unlock-recipe",
         recipe = "fuel-assembly-iiii"
@@ -73,6 +75,7 @@ data:extend(
         type = "unlock-recipe",
         recipe = "uranium-pellet-depleted"
       },
+--[[
       {
         type = "unlock-recipe",
         recipe = "uranium-pellet-i"
@@ -85,6 +88,7 @@ data:extend(
         type = "unlock-recipe",
         recipe = "uranium-pellet-iii"
       },
+]]
       {
         type = "unlock-recipe",
         recipe = "uranium-pellet-iiii"

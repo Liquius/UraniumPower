@@ -8,6 +8,7 @@ data:extend({
     order = "d[steel-plate]",
     stack_size = 100
   },
+--[[
   {
     type = "item",
     name = "uranium-pellet-i",
@@ -35,6 +36,7 @@ data:extend({
     order = "d[steel-plate]",
     stack_size = 100
   },
+]]
   {
     type = "item",
     name = "uranium-pellet-iiii",
