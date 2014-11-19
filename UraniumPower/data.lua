@@ -1,5 +1,5 @@
 require("prototypes.entity.entities")
-require("prototypes.entity.projectile")
+require("prototypes.entity.projectiles")
 
 require("prototypes.recipe.recipe")
 require("prototypes.recipe.fluid-recipe")
