@@ -9,6 +9,14 @@ data:extend(
     {
       {
         type = "unlock-recipe",
+        recipe = "uranium-bullet-magazine"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "uranium-cannon-shell"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "nuclear-fission-reactor"
       },
       {
