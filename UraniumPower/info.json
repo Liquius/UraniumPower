@@ -1,9 +1,9 @@
 {
   "name": "UraniumPower",
-  "version": "0.1",
-  "title": "",
-  "author": "",
+  "version": "0.1.0",
+  "title": "Uranium Power",
+  "author": "Liquius",
   "contact": "",
-  "homepage": "",
-  "description": "Mod that adds nuclear stuff to Factorio"
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=6740&sid=da216095b6c46474431c2c4b13a4cb0e",
+  "description": "Mod that adds Uranium to Factorio"
 }
