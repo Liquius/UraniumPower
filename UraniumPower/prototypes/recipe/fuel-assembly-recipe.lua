@@ -7,7 +7,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"uranium-pellet-i", 35},
+      {"uranium-pellet-i", 50},
       {"steel-plate", 2}
     },
     result = "fuel-assembly-i"
@@ -18,7 +18,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"uranium-pellet-ii", 35},
+      {"uranium-pellet-ii", 50},
       {"steel-plate", 2}
     },
     result = "fuel-assembly-ii"
@@ -29,7 +29,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"uranium-pellet-iii", 35},
+      {"uranium-pellet-iii", 50},
       {"steel-plate", 2}
     },
     result = "fuel-assembly-iii"
@@ -41,7 +41,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"uranium-pellet-iiii", 35},
+      {"uranium-pellet-iiii", 50},
       {"steel-plate", 2}
     },
     result = "fuel-assembly-iiii"
@@ -52,7 +52,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"uranium-pellet-iiiii", 35},
+      {"uranium-pellet-iiiii", 50},
       {"steel-plate", 2}
     },
     result = "fuel-assembly-iiiii"
@@ -63,7 +63,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"uranium-pellet-iiiiii", 35},
+      {"uranium-pellet-iiiiii", 50},
       {"steel-plate", 2}
     },
     result = "fuel-assembly-iiiiii"
@@ -74,7 +74,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"uranium-pellet-iiiiiii", 35},
+      {"uranium-pellet-iiiiiii", 50},
       {"steel-plate", 2}
     },
     result = "fuel-assembly-iiiiiii"
@@ -85,7 +85,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"uranium-pellet-iiiiiiii", 35},
+      {"uranium-pellet-iiiiiiii", 50},
       {"steel-plate", 2}
     },
     result = "fuel-assembly-iiiiiiii"
@@ -96,7 +96,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"uranium-pellet-iiiiiiiii", 35},
+      {"uranium-pellet-iiiiiiiii", 50},
       {"steel-plate", 2}
     },
     result = "fuel-assembly-iiiiiiiii"

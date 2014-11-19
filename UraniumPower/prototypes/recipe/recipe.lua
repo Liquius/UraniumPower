@@ -103,7 +103,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-depleted", amount=25}
+      {type="fluid", name="uranium-hexafluoride-depleted", amount=5}
     },
     results=
     {
@@ -119,7 +119,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-i", amount=25}
+      {type="fluid", name="uranium-hexafluoride-i", amount=5}
     },
     results=
     {
@@ -135,7 +135,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-ii", amount=25}
+      {type="fluid", name="uranium-hexafluoride-ii", amount=5}
     },
     results=
     {
@@ -151,7 +151,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iii", amount=25}
+      {type="fluid", name="uranium-hexafluoride-iii", amount=5}
     },
     results=
     {
@@ -167,7 +167,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiii", amount=25}
+      {type="fluid", name="uranium-hexafluoride-iiii", amount=5}
     },
     results=
     {
@@ -183,7 +183,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiii", amount=25}
+      {type="fluid", name="uranium-hexafluoride-iiiii", amount=5}
     },
     results=
     {
@@ -199,7 +199,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiiii", amount=25}
+      {type="fluid", name="uranium-hexafluoride-iiiiii", amount=5}
     },
     results=
     {
@@ -215,7 +215,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=25}
+      {type="fluid", name="uranium-hexafluoride-iiiiiii", amount=5}
     },
     results=
     {
@@ -231,7 +231,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiiiiii", amount=25}
+      {type="fluid", name="uranium-hexafluoride-iiiiiiii", amount=5}
     },
     results=
     {
@@ -247,7 +247,7 @@ data:extend({
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="uranium-hexafluoride-iiiiiiiii", amount=25}
+      {type="fluid", name="uranium-hexafluoride-iiiiiiiii", amount=5}
     },
     results=
     {

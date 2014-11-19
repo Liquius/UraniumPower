@@ -75,12 +75,12 @@ data:extend({
       shift = {0.46, 0}
     },
     crafting_categories = {"nuclear-fission-reactor"},
-    crafting_speed = 0.025,
+    crafting_speed = 0.02,
     energy_source =
     {
       type = "electric",
       usage_priority = "primary-input",
-      emissions = 0.03 / 3.5
+      emissions = 0 / 0.1
     },
     energy_usage = "210kW",
     ingredient_count = 4,

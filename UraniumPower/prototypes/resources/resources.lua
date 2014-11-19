@@ -19,7 +19,7 @@ data:extend(
     {
       control = "uraninite",
       sharpness = 1,
-      richness_multiplier = 5000,
+      richness_multiplier = 8000,
       richness_base = 250,
       size_control_multiplier = 0.06,
       peaks = {
@@ -121,7 +121,7 @@ data:extend(
     {
       control = "fluorite",
       sharpness = 1,
-      richness_multiplier = 5000,
+      richness_multiplier = 10000,
       richness_base = 250,
       size_control_multiplier = 0.06,
       peaks = {
