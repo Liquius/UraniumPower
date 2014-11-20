@@ -36,17 +36,19 @@ game.onevent(defines.events.ontick, function(event)
 	end
 end)
 
+--[[
 game.onload(function()
 	local debug = true
 	if debug == true then
-  game.player.insert{name="nuclear-fission-reactor", count=5}
-  game.player.insert{name="roboport", count=10}
-  game.player.insert{name="steam-engine", count=100}
-  game.player.insert{name="logistic-robot", count=200}
-  game.player.insert{name="medium-electric-pole", count=50}
-  game.player.insert{name="logistic-chest-requester", count=50}
-  game.player.insert{name="logistic-chest-passive-provider", count=50}
-  game.player.insert{name="fuel-assembly-iiiiiiiii", count=20}
-  game.player.insert{name="fuel-assembly-iiii", count=20}
+  		game.player.insert{name="nuclear-fission-reactor", count=5}
+ 		game.player.insert{name="roboport", count=10}
+  		game.player.insert{name="steam-engine", count=100}
+  		game.player.insert{name="logistic-robot", count=200}
+  		game.player.insert{name="medium-electric-pole", count=50}
+  		game.player.insert{name="logistic-chest-requester", count=50}
+  		game.player.insert{name="logistic-chest-passive-provider", count=50}
+  		game.player.insert{name="fuel-assembly-iiiiiiiii", count=20}
+  		game.player.insert{name="fuel-assembly-iiii", count=20}
 end
 end)
+]]
