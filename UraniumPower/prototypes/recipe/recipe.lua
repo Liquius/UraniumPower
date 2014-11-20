@@ -17,15 +17,15 @@ data:extend({
     type = "recipe",
     name = "nuclear-fission-reactor-on",
     category = "nuclear-fission-reactor",
-    energy_required = 1.6,
+    energy_required = 0.8,
     enabled = "false",
     ingredients =
     {
-      {type="fluid", name="water", amount=40}
+      {type="fluid", name="water", amount=25}
     },
     results=
     {
-      {type="fluid", name="super-heated-water", amount=40}
+      {type="fluid", name="super-heated-water", amount=25}
     }
   },
 
