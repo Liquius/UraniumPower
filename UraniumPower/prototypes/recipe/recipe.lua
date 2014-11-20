@@ -17,7 +17,7 @@ data:extend({
     type = "recipe",
     name = "nuclear-fission-reactor-on",
     category = "nuclear-fission-reactor",
-    energy_required = 15,
+    energy_required = 1.6,
     enabled = "false",
     ingredients =
     {
@@ -33,7 +33,7 @@ data:extend({
     type = "recipe",
     name = "uraninite-slurry",
     category = "crafting-with-fluid",
-    energy_required = 1,
+    energy_required = 3,
     enabled = "false",
     ingredients =
     {
