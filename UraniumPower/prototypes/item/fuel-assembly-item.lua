@@ -40,7 +40,7 @@ data:extend(
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
     stack_size = 50,
-    effect = { speed = {bonus = 2.5}}
+    effect = { speed = {bonus = 2}}
   },
   {
     type = "module",
@@ -50,7 +50,7 @@ data:extend(
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
     stack_size = 50,
-    effect = { speed = {bonus = 3}}
+    effect = { speed = {bonus = 2.5}}
   },
   {
     type = "module",
@@ -60,7 +60,7 @@ data:extend(
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
     stack_size = 50,
-    effect = { speed = {bonus = 3.5}}
+    effect = { speed = {bonus = 3.1}}
   },
   {
     type = "module",
@@ -70,7 +70,7 @@ data:extend(
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
     stack_size = 50,
-    effect = { speed = {bonus = 4}}
+    effect = { speed = {bonus = 3.7}}
   },
   {
     type = "module",
@@ -80,7 +80,7 @@ data:extend(
     subgroup = "module",
     order = "a[speed]-a[speed-module-1]",
     stack_size = 50,
-    effect = { speed = {bonus = 4.5}}
+    effect = { speed = {bonus = 4.3}}
   },
   {
     type = "module",

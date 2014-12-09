@@ -36,6 +36,9 @@ game.onevent(defines.events.ontick, function(event)
 	end
 end)
 
+
+
+
 --[[
 game.onload(function()
 	local debug = true
