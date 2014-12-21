@@ -48,4 +48,14 @@ data:extend({
     place_result = "nuclear-fission-reactor",
     stack_size = 10
   },
+  {
+    type = "item",
+    name = "fission-reactor-marker",
+    icon = "__base__/graphics/icons/stone-wall.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "defensive-structure",
+    order = "a[stone-wall]-a[stone-wall]",
+    place_result = "fission-reactor-marker",
+    stack_size = 50
+  },
 })
