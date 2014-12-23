@@ -17,7 +17,7 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "nuclear-fission-reactor"
+        recipe = "nuclear-fission-reactor-kit"
       },
       {
         type = "unlock-recipe",

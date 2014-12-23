@@ -7,7 +7,7 @@ data:extend(
 
   {
     type = "recipe-category",
-    name = "nuclear-fission-reactor"
+    name = "nuclear-fission-reactor-kit"
   },
 
 })

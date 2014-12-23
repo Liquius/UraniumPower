@@ -26,36 +26,14 @@ data:extend({
     order = "f[yellowcake]",
     stack_size = 50
   },
---[[  
   {
     type = "item",
-    name = "centrifuge",
-    icon = "__base__/graphics/icons/chemical-plant.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
-    order = "f[centrifuge]",
-    place_result = "centrifuge",
-    stack_size = 10
-  },
-]]
-  {
-    type = "item",
-    name = "nuclear-fission-reactor",
+    name = "nuclear-fission-reactor-kit",
     icon = "__UraniumPower__/graphics/icons/nuclear-fission-reactor.png",
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
     order = "f[nuclear-fission-reactor]",
-    place_result = "nuclear-fission-reactor",
+    place_result = "nuclear-fission-reactor-kit",
     stack_size = 10
-  },
-  {
-    type = "item",
-    name = "fission-reactor-marker",
-    icon = "__base__/graphics/icons/stone-wall.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "defensive-structure",
-    order = "a[stone-wall]-a[stone-wall]",
-    place_result = "fission-reactor-marker",
-    stack_size = 50
   },
 })

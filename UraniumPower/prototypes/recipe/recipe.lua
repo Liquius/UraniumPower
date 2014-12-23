@@ -1,7 +1,7 @@
 data:extend({
   {
     type = "recipe",
-    name = "nuclear-fission-reactor",
+    name = "nuclear-fission-reactor-kit",
     enabled = "false",
     ingredients =
     {
@@ -9,14 +9,14 @@ data:extend({
       {"iron-gear-wheel", 45},
       {"advanced-circuit", 45}
     },
-    result = "nuclear-fission-reactor",
+    result = "nuclear-fission-reactor-kit",
     energy_required = 15
   },
 
   {
     type = "recipe",
     name = "nuclear-fission-reactor-on",
-    category = "nuclear-fission-reactor",
+    category = "nuclear-fission-reactor-kit",
     energy_required = 0.8,
     enabled = "false",
     ingredients =
