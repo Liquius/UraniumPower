@@ -36,4 +36,14 @@ data:extend({
     place_result = "nuclear-fission-reactor-kit",
     stack_size = 10
   },
+  {
+    type = "item",
+    name = "fission-reactor-3-by-3",
+    icon = "__UraniumPower__/graphics/icons/nuclear-fission-reactor.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "production-machine",
+    order = "f[nuclear-fission-reactor]",
+    place_result = "fission-reactor-3-by-3",
+    stack_size = 10
+  },
 })
