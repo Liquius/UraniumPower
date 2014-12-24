@@ -46,4 +46,14 @@ data:extend({
     place_result = "fission-reactor-3-by-3",
     stack_size = 10
   },
+  {
+    type = "item",
+    name = "fission-reactor-chest",
+    icon = "__base__/graphics/icons/steel-chest.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "storage",
+    order = "a[items]-c[steel-chest]",
+    place_result = "fission-reactor-chest",
+    stack_size = 50
+  },
 })

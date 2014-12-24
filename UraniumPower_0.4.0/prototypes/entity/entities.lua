@@ -139,8 +139,7 @@ data:extend({
     },
     collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-    fast_replaceable_group = "container",
-    inventory_size = 48,
+    inventory_size = 1,
     picture =
     {
       filename = "__base__/graphics/entity/steel-chest/steel-chest.png",

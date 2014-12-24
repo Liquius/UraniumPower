@@ -9,15 +9,20 @@ game.onevent(defines.events.onbuiltentity, function(event)
 		nuclearFissionReactorKit = event.createdentity
 
 	--for companion chest
-	elseif event.createdentity.name == "fission-reactor-chest" then
-		if game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-3-by-3"}) == 1 then
+	elseif event.createdentity.name == "fission-reactor-chest" then 
+		localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-3-by-3"})
+		local count = 0
+		for i in pairs(localFissionReactor) do
+			count = count +1 
+		end
+		if count == 1 then
 			if glob.LReactorAndChest == nil then
 				glob.LReactorAndChest = {}
 			end
 			reactorAndChest = {true, true}
 
-			reactorAndChest[1] = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-3-by-3"})
-			reactorAndChest[2] = game.createdentity
+			reactorAndChest[1] = localFissionReactor[1]
+			reactorAndChest[2] = event.createdentity
 
 			table.insert(glob.LReactorAndChest, reactorAndChest)
 
