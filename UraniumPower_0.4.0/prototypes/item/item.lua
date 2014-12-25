@@ -38,16 +38,6 @@ data:extend({
   },
   {
     type = "item",
-    name = "fission-reactor-3-by-3",
-    icon = "__UraniumPower__/graphics/icons/nuclear-fission-reactor.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
-    order = "f[nuclear-fission-reactor]",
-    place_result = "fission-reactor-3-by-3",
-    stack_size = 10
-  },
-  {
-    type = "item",
     name = "fission-reactor-chest",
     icon = "__base__/graphics/icons/steel-chest.png",
     flags = {"goes-to-quickbar"},

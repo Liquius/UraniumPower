@@ -1,0 +1,6 @@
+  {
+    type = "item",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "d[steel-plate]",
+    stack_size = 100,

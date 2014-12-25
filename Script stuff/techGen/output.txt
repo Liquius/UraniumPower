@@ -160,7 +160,4 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "uranium-hexafluoride-10"
-      }
-    }
-  }
-})
+      },

@@ -1,27 +1,23 @@
-require("prototypes.entity.entities")
-require("prototypes.entity.projectiles")
+require("prototypes.categories.recipe-category.lua")
 
-require("prototypes.recipe.recipe")
-require("prototypes.recipe.fluid-recipe")
-require("prototypes.recipe.fuel-assembly-recipe")
-require("prototypes.recipe.ammo-recipe")
+require("prototypes.entity.entities.lua")
+require("prototypes.entity.projectiles.lua")
 
-require("prototypes.item.item")
-require("prototypes.item.uranium-pellet-item")
-require("prototypes.item.fuel-assembly-item")
-require("prototypes.item.ammo")
+require("prototypes.fluid.fluid.lua")
+require("prototypes.fluid.uranium-hexaflouride-fluid.lua")
 
-require("prototypes.categories.recipe-category")
+require("prototypes.item.ammo.lua")
+require("prototypes.item.fission-reactor-item.lua")
+require("prototypes.item.fuel-assembly-item.lua")
+require("prototypes.item.item.lua")
+require("prototypes.item.uranium-pellet-item.lua")
 
-require("prototypes.technology.technology")
+require("prototypes.recipe.ammo-recipe.lua")
+require("prototypes.recipe.fuel-assembly-recipe.lua")
+require("prototypes.recipe.recipe.lua")
+require("prototypes.recipe.uranium-hexaflouride-recipe.lua")
+require("prototypes.recipe.uranium-pellet-recipe.lua")
 
+require("prototypes.resources.resources.lua")
 
--- Deposit stuff
-require("prototypes.autoplace-controls")
-require("prototypes.resources.resources")
-require("prototypes.tile.noise-layers")
-
-
--- Liquids/Gasses
-require("prototypes.fluid.fluid")
-require("prototypes.fluid.uranium-hexafluoride")
+require("prototypes.technology.technology.lua")

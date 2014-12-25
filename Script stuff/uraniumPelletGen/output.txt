@@ -1,4 +1,3 @@
-data:extend({
   {
     type = "item",
     flags = {"goes-to-main-inventory"},
@@ -89,5 +88,3 @@ data:extend({
     name = "uranium-pellet-10",
     icon = "__UraniumPower__/graphics/icons/uranium-pellet-10.png"
   },
-
-})

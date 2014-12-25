@@ -1,0 +1,6 @@
+  {
+    type = "item",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "e[fluorite]",
+    stack_size = 1,

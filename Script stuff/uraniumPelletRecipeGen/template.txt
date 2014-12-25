@@ -1,0 +1,5 @@
+  {
+    type = "recipe",
+    category = "crafting-with-fluid",
+    energy_required = 1,
+    enabled = "false",

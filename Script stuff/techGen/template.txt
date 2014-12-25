@@ -1,0 +1,43 @@
+data:extend(
+{
+  {
+    type = "technology",
+    name = "uranium-processing",
+    icon = "__UraniumPower__/graphics/technology/uranium-processing.png",
+    prerequisites = {"sulfur-processing"},
+    unit =
+    {
+      count = 75,
+      ingredients = {
+      {"science-pack-1", 1},
+      {"science-pack-2", 1},
+      },
+      time = 30
+    },
+    order = "d-c"
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "uranium-bullet-magazine"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "uranium-cannon-shell"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "nuclear-fission-reactor-kit"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "uraninite-slurry"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "yellowcake"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "fluorine-gas"
+      },

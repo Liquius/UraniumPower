@@ -1,4 +1,3 @@
-data:extend({
   {
     type = "recipe",
     enabled = "false",
@@ -109,5 +108,3 @@ data:extend({
     },
     result = "fuel-assembly-10"
   },
-
-})

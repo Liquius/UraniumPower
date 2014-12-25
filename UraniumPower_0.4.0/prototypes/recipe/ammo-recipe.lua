@@ -7,7 +7,7 @@ data:extend(
     energy_required = 3,
     ingredients =
     {
-      {"uranium-pellet-depleted", 5},
+      {"uranium-pellet-01", 5},
       {"steel-plate", 1}
     },
     result = "uranium-bullet-magazine"
@@ -20,10 +20,9 @@ data:extend(
     ingredients =
     {
       {"steel-plate", 4},
-      {"uranium-pellet-depleted", 5},
+      {"uranium-pellet-01", 5},
       {"explosives", 1},
     },
     result = "uranium-cannon-shell"
   }
-
 })

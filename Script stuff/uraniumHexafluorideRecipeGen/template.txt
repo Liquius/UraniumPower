@@ -1,0 +1,7 @@
+  {
+    type = "recipe",
+    category = "chemistry",
+    enabled = "false",
+    energy_required = 5,
+    subgroup = "fluid",
+    order = "a[oil-processing]-a[basic-oil-processing]"
