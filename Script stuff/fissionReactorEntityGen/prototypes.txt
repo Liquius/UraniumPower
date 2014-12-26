@@ -100,10 +100,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-3-by-3",
     collision_box = {{-1.79,-1.79},{1.79,1.79}},
     selection_box = {{-2.00,-2.00},{2.00,2.00}},
-    fluid_box = {{-2.00,-2.00},{2.00,2.00}}
 },
   {
     type = "boiler",
@@ -207,10 +226,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-3-by-4",
     collision_box = {{-1.79,-2.29},{1.79,2.29}},
     selection_box = {{-2.00,-2.50},{2.00,2.50}},
-    fluid_box = {{-2.00,-2.50},{2.00,2.50}}
 },
   {
     type = "boiler",
@@ -314,10 +352,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-3-by-5",
     collision_box = {{-1.79,-2.79},{1.79,2.79}},
     selection_box = {{-2.00,-3.00},{2.00,3.00}},
-    fluid_box = {{-2.00,-3.00},{2.00,3.00}}
 },
   {
     type = "boiler",
@@ -421,10 +478,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-3-by-6",
     collision_box = {{-1.79,-3.29},{1.79,3.29}},
     selection_box = {{-2.00,-3.50},{2.00,3.50}},
-    fluid_box = {{-2.00,-3.50},{2.00,3.50}}
 },
   {
     type = "boiler",
@@ -528,10 +604,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-4-by-3",
     collision_box = {{-2.29,-1.79},{2.29,1.79}},
     selection_box = {{-2.50,-2.00},{2.50,2.00}},
-    fluid_box = {{-2.50,-2.00},{2.50,2.00}}
 },
   {
     type = "boiler",
@@ -635,10 +730,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-4-by-4",
     collision_box = {{-2.29,-2.29},{2.29,2.29}},
     selection_box = {{-2.50,-2.50},{2.50,2.50}},
-    fluid_box = {{-2.50,-2.50},{2.50,2.50}}
 },
   {
     type = "boiler",
@@ -742,10 +856,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-4-by-5",
     collision_box = {{-2.29,-2.79},{2.29,2.79}},
     selection_box = {{-2.50,-3.00},{2.50,3.00}},
-    fluid_box = {{-2.50,-3.00},{2.50,3.00}}
 },
   {
     type = "boiler",
@@ -849,10 +982,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-4-by-6",
     collision_box = {{-2.29,-3.29},{2.29,3.29}},
     selection_box = {{-2.50,-3.50},{2.50,3.50}},
-    fluid_box = {{-2.50,-3.50},{2.50,3.50}}
 },
   {
     type = "boiler",
@@ -956,10 +1108,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-5-by-3",
     collision_box = {{-2.79,-1.79},{2.79,1.79}},
     selection_box = {{-3.00,-2.00},{3.00,2.00}},
-    fluid_box = {{-3.00,-2.00},{3.00,2.00}}
 },
   {
     type = "boiler",
@@ -1063,10 +1234,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-5-by-4",
     collision_box = {{-2.79,-2.29},{2.79,2.29}},
     selection_box = {{-3.00,-2.50},{3.00,2.50}},
-    fluid_box = {{-3.00,-2.50},{3.00,2.50}}
 },
   {
     type = "boiler",
@@ -1170,10 +1360,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-5-by-5",
     collision_box = {{-2.79,-2.79},{2.79,2.79}},
     selection_box = {{-3.00,-3.00},{3.00,3.00}},
-    fluid_box = {{-3.00,-3.00},{3.00,3.00}}
 },
   {
     type = "boiler",
@@ -1277,10 +1486,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-5-by-6",
     collision_box = {{-2.79,-3.29},{2.79,3.29}},
     selection_box = {{-3.00,-3.50},{3.00,3.50}},
-    fluid_box = {{-3.00,-3.50},{3.00,3.50}}
 },
   {
     type = "boiler",
@@ -1384,10 +1612,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-6-by-3",
     collision_box = {{-3.29,-1.79},{3.29,1.79}},
     selection_box = {{-3.50,-2.00},{3.50,2.00}},
-    fluid_box = {{-3.50,-2.00},{3.50,2.00}}
 },
   {
     type = "boiler",
@@ -1491,10 +1738,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-6-by-4",
     collision_box = {{-3.29,-2.29},{3.29,2.29}},
     selection_box = {{-3.50,-2.50},{3.50,2.50}},
-    fluid_box = {{-3.50,-2.50},{3.50,2.50}}
 },
   {
     type = "boiler",
@@ -1598,10 +1864,29 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-6-by-5",
     collision_box = {{-3.29,-2.79},{3.29,2.79}},
     selection_box = {{-3.50,-3.00},{3.50,3.00}},
-    fluid_box = {{-3.50,-3.00},{3.50,3.00}}
 },
   {
     type = "boiler",
@@ -1705,8 +1990,27 @@
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
+    fluid_box =
+    {
+      base_area = 2,
+
+      pipe_connections =
+      {
+        { position = {0, -2} },
+        { position = {1, -2} },
+        { position = {-1, -2} },
+        { position = {2, 0} },
+        { position = {2, 1} },
+        { position = {2, -1} },
+        { position = {0, 2} },
+        { position = {1, 2} },
+        { position = {-1, 2} },
+        { position = {-2, 0} },
+        { position = {-2, 1} },
+        { position = {-2, -1} }
+      },
+    },
     name = "nuclear-fission-reactor-6-by-6",
     collision_box = {{-3.29,-3.29},{3.29,3.29}},
     selection_box = {{-3.50,-3.50},{3.50,3.50}},
-    fluid_box = {{-3.50,-3.50},{3.50,3.50}}
 },

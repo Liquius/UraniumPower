@@ -1,0 +1,4 @@
+		game.player.insert({name = "fission-reactor-chest", count = 1})
+		game.player.gui.center.fissionReactorTable.destroy()
+		nuclearFissionReactorKit.destroy()
+		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")

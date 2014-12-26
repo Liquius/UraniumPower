@@ -24,7 +24,7 @@ def makePrototype( xSize, ySize ):
     p += '    name = "%s",\n' % (name)
     p += '    collision_box = {{%0.2f,%0.2f},{%0.2f,%0.2f}},\n' % cBox
     p += '    selection_box = {{%0.2f,%0.2f},{%0.2f,%0.2f}},\n' % sBox
-    p += '    fluid_box = {{%0.2f,%0.2f},{%0.2f,%0.2f}}\n' % fBox
+#    p += '    fluid_box = {{%0.2f,%0.2f},{%0.2f,%0.2f}}\n' % fBox
     p += '},\n'
     
     return p

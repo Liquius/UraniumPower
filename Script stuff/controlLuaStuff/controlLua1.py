@@ -1,32 +1,18 @@
 
 
-templateFile = open('template.txt','r')
-templateData = templateFile.read()
 
-#name = "fission-reactor-3-by-3",
-#place_result = "fission-reactor-3-by-3",
+def makePrototype(x):
 
-#},})
+	p = ''
 
+	p += 'fuelAssemblyValue%02i = %i\n' %(x, x)
+	return p
 
-def makePrototype( xSize, ySize ):
+output1 = ''
 
-    name = 'nuclear-fission-reactor-%i-by-%i' % ( xSize, ySize )
-
-    p = templateData
-
-    p += '    name = "%02i",\n' % (name)
-    p += '    place_result = "%02i",\n' % (name)
-    p += '  },\n'
+for i in range(1,11):
+	output1 += makePrototype(i)
     
-    return p
-
-output = ''
-
-for i in range(3,7):
-    for j in range(3,7):
-        output += makePrototype( i, j )
-    
-f = open('output.txt','w')
-f.write( output )
+f = open('output1.txt','w')
+f.write( output1 )
 f.close()

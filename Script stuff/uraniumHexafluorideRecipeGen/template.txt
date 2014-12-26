@@ -4,4 +4,4 @@
     enabled = "false",
     energy_required = 5,
     subgroup = "fluid",
-    order = "a[oil-processing]-a[basic-oil-processing]"
+    order = "a[oil-processing]-a[basic-oil-processing]",

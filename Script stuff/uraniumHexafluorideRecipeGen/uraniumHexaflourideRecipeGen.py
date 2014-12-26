@@ -10,7 +10,7 @@ def makePrototype( x ):
     p = templateData
 
     p += '    name = "uranium-hexafluoride-%02i",\n' % ( x )
-    p += '    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-%02i.png"\n' % ( x )
+    p += '    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-%02i.png",\n' % ( x )
     p += '    ingredients =\n'
     p += '    {\n'
     p += '      {type="fluid", name="uranium-hexafluoride-%02i", amount=20}\n' % ( x )

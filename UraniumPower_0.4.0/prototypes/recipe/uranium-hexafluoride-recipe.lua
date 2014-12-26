@@ -5,9 +5,9 @@ data:extend({
     enabled = "false",
     energy_required = 5,
     subgroup = "fluid",
-    order = "a[oil-processing]-a[basic-oil-processing]"
+    order = "a[oil-processing]-a[basic-oil-processing]",
     name = "uranium-hexafluoride-02",
-    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-02.png"
+    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-02.png",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-02", amount=20}
@@ -24,9 +24,9 @@ data:extend({
     enabled = "false",
     energy_required = 5,
     subgroup = "fluid",
-    order = "a[oil-processing]-a[basic-oil-processing]"
+    order = "a[oil-processing]-a[basic-oil-processing]",
     name = "uranium-hexafluoride-03",
-    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-03.png"
+    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-03.png",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-03", amount=20}
@@ -43,9 +43,9 @@ data:extend({
     enabled = "false",
     energy_required = 5,
     subgroup = "fluid",
-    order = "a[oil-processing]-a[basic-oil-processing]"
+    order = "a[oil-processing]-a[basic-oil-processing]",
     name = "uranium-hexafluoride-04",
-    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-04.png"
+    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-04.png",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-04", amount=20}
@@ -62,9 +62,9 @@ data:extend({
     enabled = "false",
     energy_required = 5,
     subgroup = "fluid",
-    order = "a[oil-processing]-a[basic-oil-processing]"
+    order = "a[oil-processing]-a[basic-oil-processing]",
     name = "uranium-hexafluoride-05",
-    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-05.png"
+    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-05.png",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-05", amount=20}
@@ -81,9 +81,9 @@ data:extend({
     enabled = "false",
     energy_required = 5,
     subgroup = "fluid",
-    order = "a[oil-processing]-a[basic-oil-processing]"
+    order = "a[oil-processing]-a[basic-oil-processing]",
     name = "uranium-hexafluoride-06",
-    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-06.png"
+    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-06.png",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-06", amount=20}
@@ -100,9 +100,9 @@ data:extend({
     enabled = "false",
     energy_required = 5,
     subgroup = "fluid",
-    order = "a[oil-processing]-a[basic-oil-processing]"
+    order = "a[oil-processing]-a[basic-oil-processing]",
     name = "uranium-hexafluoride-07",
-    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-07.png"
+    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-07.png",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-07", amount=20}
@@ -119,9 +119,9 @@ data:extend({
     enabled = "false",
     energy_required = 5,
     subgroup = "fluid",
-    order = "a[oil-processing]-a[basic-oil-processing]"
+    order = "a[oil-processing]-a[basic-oil-processing]",
     name = "uranium-hexafluoride-08",
-    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-08.png"
+    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-08.png",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-08", amount=20}
@@ -138,9 +138,9 @@ data:extend({
     enabled = "false",
     energy_required = 5,
     subgroup = "fluid",
-    order = "a[oil-processing]-a[basic-oil-processing]"
+    order = "a[oil-processing]-a[basic-oil-processing]",
     name = "uranium-hexafluoride-09",
-    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-09.png"
+    icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride-09.png",
     ingredients =
     {
       {type="fluid", name="uranium-hexafluoride-09", amount=20}
@@ -150,6 +150,5 @@ data:extend({
       {type="fluid", name="uranium-hexafluoride-10", amount=10},
       {type="fluid", name="uranium-hexafluoride-08", amount=10}
     }
-  },
-
+  }
 })

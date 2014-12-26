@@ -14,7 +14,7 @@ data:extend(
       },
       time = 30
     },
-    order = "d-c"
+    order = "d-c",
     effects =
     {
       {

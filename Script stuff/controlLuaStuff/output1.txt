@@ -1,0 +1,10 @@
+fuelAssemblyValue01 = 1
+fuelAssemblyValue02 = 2
+fuelAssemblyValue03 = 3
+fuelAssemblyValue04 = 4
+fuelAssemblyValue05 = 5
+fuelAssemblyValue06 = 6
+fuelAssemblyValue07 = 7
+fuelAssemblyValue08 = 8
+fuelAssemblyValue09 = 9
+fuelAssemblyValue10 = 10
