@@ -1,32 +1,272 @@
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-3-by-3"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-3-by-3"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-3-by-4"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-3-by-4"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-3-by-5"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-3-by-5"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-3-by-6"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-3-by-6"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-4-by-3"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-4-by-3"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-4-by-4"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-4-by-4"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-4-by-5"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-4-by-5"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-4-by-6"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-4-by-6"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-5-by-3"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-5-by-3"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-5-by-4"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-5-by-4"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-5-by-5"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-5-by-5"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-5-by-6"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-5-by-6"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-6-by-3"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-6-by-3"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-6-by-4"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-6-by-4"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-6-by-5"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-6-by-5"})
-		elseif game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-6-by-6"}) ~= nil then
-			localFissionReactor = game.findentitiesfiltered({area = {{x = event.createdentity.position.x -10, y = event.createdentity.position.y -10}, {x = event.createdentity.position.x + 10, y = event.createdentity.position.y + 10}}, name = "fission-reactor-6-by-6"})
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-9" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-3-by-3"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-9", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-12" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-3-by-4"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-12", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-15" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-3-by-5"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-15", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-18" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-3-by-6"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-18", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-12" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-4-by-3"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-12", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-16" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-4-by-4"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-16", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-20" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-4-by-5"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-20", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-24" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-4-by-6"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-24", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-15" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-5-by-3"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-15", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-20" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-5-by-4"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-20", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-25" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-5-by-5"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-25", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-30" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-5-by-6"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-30", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-18" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-6-by-3"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-18", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-24" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-6-by-4"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-24", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-30" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-6-by-5"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-30", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end
+	elseif event.createdentity.name == "nuclear-fission-reactor-chest-36" then
+		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-6-by-6"}
+		if #results == 1 then
+			if glob.LReactorAndChest == nil then
+				glob.LReactorAndChest = {}
+			end
+			reactorAndChest = {true, true, true}
+			reactorAndChest[1] = results[1]
+			reactorAndChest[2] = event.createdentity
+			reactorAndChest[3] = 0
+			table.insert(glob.LReactorAndChest, reactorAndChest)
+			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+		else
+			event.createdentity.destroy()
+			game.player.insert({name = "nuclear-fission-reactor-chest-36", count = 1})
+			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory. Make sure you place your reactor first, and that you place your reactor access port next to it.")
+		end

@@ -1,96 +1,96 @@
-	elseif event.clickgui == fissionReactor3By3 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
-		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor3By3" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-9", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-3-by-3", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-3-by-3", count = 1})
-	elseif event.clickgui == fissionReactor3By4 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor3By4" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-12", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-3-by-4", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-3-by-4", count = 1})
-	elseif event.clickgui == fissionReactor3By5 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor3By5" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-15", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-3-by-5", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-3-by-5", count = 1})
-	elseif event.clickgui == fissionReactor3By6 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor3By6" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-18", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-3-by-6", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-3-by-6", count = 1})
-	elseif event.clickgui == fissionReactor4By3 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor4By3" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-12", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-4-by-3", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-4-by-3", count = 1})
-	elseif event.clickgui == fissionReactor4By4 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor4By4" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-16", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-4-by-4", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-4-by-4", count = 1})
-	elseif event.clickgui == fissionReactor4By5 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor4By5" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-20", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-4-by-5", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-4-by-5", count = 1})
-	elseif event.clickgui == fissionReactor4By6 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor4By6" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-24", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-4-by-6", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-4-by-6", count = 1})
-	elseif event.clickgui == fissionReactor5By3 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor5By3" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-15", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-5-by-3", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-5-by-3", count = 1})
-	elseif event.clickgui == fissionReactor5By4 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor5By4" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-20", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-5-by-4", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-5-by-4", count = 1})
-	elseif event.clickgui == fissionReactor5By5 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor5By5" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-25", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-5-by-5", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-5-by-5", count = 1})
-	elseif event.clickgui == fissionReactor5By6 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor5By6" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-30", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-5-by-6", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-5-by-6", count = 1})
-	elseif event.clickgui == fissionReactor6By3 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor6By3" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-18", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-6-by-3", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-6-by-3", count = 1})
-	elseif event.clickgui == fissionReactor6By4 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor6By4" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-24", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-6-by-4", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-6-by-4", count = 1})
-	elseif event.clickgui == fissionReactor6By5 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor6By5" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-30", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-6-by-5", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-6-by-5", count = 1})
-	elseif event.clickgui == fissionReactor6By6 then
-		game.player.insert({name = "fission-reactor-chest", count = 1})
 		game.player.gui.center.fissionReactorTable.destroy()
+	elseif event.element.name == "fissionReactor6By6" then
+		game.player.insert({name = "nuclear-fission-reactor-chest-36", count = 1})
+		game.player.insert({name = "nuclear-fission-reactor-6-by-6", count = 1})
 		nuclearFissionReactorKit.destroy()
 		game.player.print("Place the fission reactor first, and then place the reactor access port next to your reactor.")
-		game.player.insert({name = "fission-reactor-6-by-6", count = 1})
+		game.player.gui.center.fissionReactorTable.destroy()

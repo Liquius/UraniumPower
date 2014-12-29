@@ -123,7 +123,7 @@ data:extend({
     name = "fission-reactor-chest",
     icon = "__base__/graphics/icons/steel-chest.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "steel-chest"},
+    minable = {mining_time = 1, result = "fission-reactor-chest"},
     max_health = 200,
     corpse = "small-remnants",
     open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },

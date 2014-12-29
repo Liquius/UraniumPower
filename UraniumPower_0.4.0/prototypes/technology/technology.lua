@@ -41,38 +41,38 @@ data:extend(
         type = "unlock-recipe",
         recipe = "fluorine-gas"
       },
-      {
-        type = "unlock-recipe",
-        recipe = "fuel-assembly-01"
-      },
+--      {
+--        type = "unlock-recipe",
+--        recipe = "fuel-assembly-01"
+--      },
       {
         type = "unlock-recipe",
         recipe = "uranium-pellet-01"
       },
-      {
-        type = "unlock-recipe",
-        recipe = "uranium-hexafluoride-01"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "fuel-assembly-02"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "uranium-pellet-02"
-      },
+--      {
+--        type = "unlock-recipe",
+--        recipe = "uranium-hexafluoride-01"
+--      },
+--      {
+--        type = "unlock-recipe",
+--        recipe = "fuel-assembly-02"
+--      },
+--      {
+--        type = "unlock-recipe",
+--        recipe = "uranium-pellet-02"
+--      },
       {
         type = "unlock-recipe",
         recipe = "uranium-hexafluoride-02"
       },
-      {
-        type = "unlock-recipe",
-        recipe = "fuel-assembly-03"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "uranium-pellet-03"
-      },
+--      {
+--        type = "unlock-recipe",
+--        recipe = "fuel-assembly-03"
+--      },
+--      {
+--        type = "unlock-recipe",
+--        recipe = "uranium-pellet-03"
+--      },
       {
         type = "unlock-recipe",
         recipe = "uranium-hexafluoride-03"
@@ -157,10 +157,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "uranium-pellet-10"
       },
-      {
-        type = "unlock-recipe",
-        recipe = "uranium-hexafluoride-10"
-      }
+--      {
+--        type = "unlock-recipe",
+--        recipe = "uranium-hexafluoride-10"
+--      }
     }
   }
 })
