@@ -46,4 +46,14 @@ data:extend({
     place_result = "fission-reactor-chest",
     stack_size = 50
   },
+  {
+    type = "item",
+    name = "pressure-pump",
+    icon = "__base__/graphics/icons/small-pump.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "energy-pipe-distribution",
+    order = "b[pipe]-c[small-pump]",
+    place_result = "pressure-pump",
+    stack_size = 50
+  }
 })

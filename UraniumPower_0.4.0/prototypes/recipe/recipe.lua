@@ -79,5 +79,33 @@ data:extend({
     icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride.png",
     subgroup = "fluid",
     order = "a[oil-processing]-a[basic-oil-processing]"
+  },
+  {
+    type = "recipe",
+    name = "pressure-pump",
+    energy_required = 2,
+    enabled = "false",
+    ingredients =
+    {
+      {"electric-engine-unit", 1},
+      {"steel-plate", 1},
+      {"pipe", 1}
+    },
+    result= "pressure-pump"
+  },
+  {
+    type = "recipe",
+    name = "pressurised-water",
+    category = "pressure-pump",
+    energy_required = 1,
+    enabled = "false",
+    ingredients =
+    {     
+      {type="fluid", name="water", amount=10} 
+    },
+    results=
+    {
+      {type="fluid", name="pressurised-water", amount=10},
+    }
   }
 })

@@ -19,6 +19,14 @@ data:extend(
     {
       {
         type = "unlock-recipe",
+        recipe = "pressure-pump"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "pressurised-water"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "uranium-bullet-magazine"
       },
       {
