@@ -2,6 +2,7 @@ require "defines"
 require "util"
 
 
+
 fuelAssemblyValue01 = 0.125
 fuelAssemblyValue02 = 0.250
 fuelAssemblyValue03 = 0.375
@@ -453,7 +454,7 @@ function add_reactor_fuel()
 			if LReactorAndChest[1].valid and LReactorAndChest[2].valid then
 				local fuelCount = LReactorAndChest[3]
 				if fuelCount >=1 then
-					LReactorAndChest[1].insert({name = "coal", count = fuelCount})
+					LReactorAndChest[1].insert({name = "fission-reactor-fuel", count = fuelCount})
 				end
 			else
 				table.remove(glob.LReactorAndChest, k)

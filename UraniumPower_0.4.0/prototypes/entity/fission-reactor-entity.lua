@@ -13,10 +13,10 @@ data:extend({
         percent = 80
       }
     },
-    energy_consumption = "10000kW",
+    energy_consumption = "12500kW",
     burner =
     {
-      effectivity = 1,
+      effectivity = 0.1,
       fuel_inventory_size = 1,
       emissions = 0
     },
@@ -33,71 +33,71 @@ data:extend({
     {
       left =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-left.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/3-by-3-left.png",
         priority = "extra-high",
-        width = 46,
-        height = 46,
-        shift = {0.03125, 0}
+        width = 180,
+        height = 160,
+        shift = {0.72, -0.308}
       },
       down =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-down.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/3-by-3-down.png",
         priority = "extra-high",
-        width = 66,
-        height = 72 --, shift = {0.05, 0}
+        width = 180,
+        height = 160, 
+        shift = {0.72, -0.308}
       },
       left_down =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-left-down.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/3-by-3-left-down.png",
         priority = "extra-high",
-        width = 60,
-        height = 50 --, shift = {0, -0.02}
+        width = 180,
+        height = 160, 
+        shift = {0.72, -0.308}
       },
       right_down =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-right-down.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/3-by-3-right-down.png",
         priority = "extra-high",
-        width = 44,
-        height = 50
+        width = 180,
+        height = 160,
+        shift = {0.72, -0.308}
       },
       left_up =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-left-up.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/3-by-3-left-up.png",
         priority = "extra-high",
-        width = 66,
-        height = 74 --, shift = {0.05, 0}
+        width = 180,
+        height = 160, 
+        shift = {0.72, -0.308}
       },
       right_up =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-right-up.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/3-by-3-right-up.png",
         priority = "extra-high",
-        width = 46,
-        height = 72 --, shift = {0.15, 0}
+        width = 180,
+        height = 160, 
+        shift = {0.72, -0.308}
       },
       t_down =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-t-down.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/3-by-3-t-down.png",
         priority = "extra-high",
-        width = 44,
-        height = 50 --, shift = {0, 0}
+        width = 180,
+        height = 160, 
+        shift = {0.72, -0.308}
       },
       t_up =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-t-up.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/3-by-3-left.png",
         priority = "extra-high",
-        width = 46,
-        height = 70 --, shift = {0, 0}
+        width = 180,
+        height = 160, 
+        shift = {0.72, -0.308}
       }
     },
     fire =
     {
-      left = boilerfires.down,
-      down = boilerfires.left,
-      left_down = boilerfires.right,
-      right_down = boilerfires.left,
-      left_up = boilerfires.down,
-      right_up = boilerfires.down,
-      t_up = boilerfires.down
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
@@ -109,19 +109,10 @@ data:extend({
       base_area = 3,
       pipe_connections =
       {
-        {position= {-1, 2}},
-        {position= {-1, -2}},
         {position= {0, 2}},
         {position= {0, -2}},
-        {position= {1, 2}},
-        {position= {1, -2}},
-
-        {position= {2, -1}},
-        {position= {-2, -1}},
         {position= {2, 0}},
-        {position= {-2, 0}},
-        {position= {2, 1}},
-        {position= {-2, 1}},
+        {position= {-2, 0}}
       }
     }
   },
@@ -139,10 +130,10 @@ data:extend({
         percent = 80
       }
     },
-    energy_consumption = "10000kW",
+    energy_consumption = "12500kW",
     burner =
     {
-      effectivity = 1,
+      effectivity = 0.1,
       fuel_inventory_size = 1,
       emissions = 0
     },
@@ -159,331 +150,64 @@ data:extend({
     {
       left =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-left.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
         priority = "extra-high",
-        width = 46,
-        height = 46,
+        width = 414,
+        height = 334,
         shift = {0.03125, 0}
       },
       down =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-down.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
         priority = "extra-high",
-        width = 66,
-        height = 72 --, shift = {0.05, 0}
+        width = 414,
+        height = 334 --, shift = {0.05, 0}
       },
       left_down =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-left-down.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
         priority = "extra-high",
-        width = 60,
-        height = 50 --, shift = {0, -0.02}
+        width = 414,
+        height = 334 --, shift = {0, -0.02}
       },
       right_down =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-right-down.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
         priority = "extra-high",
-        width = 44,
-        height = 50
+        width = 414,
+        height = 334
       },
       left_up =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-left-up.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
         priority = "extra-high",
-        width = 66,
-        height = 74 --, shift = {0.05, 0}
+        width = 414,
+        height = 334 --, shift = {0.05, 0}
       },
       right_up =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-right-up.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
         priority = "extra-high",
-        width = 46,
-        height = 72 --, shift = {0.15, 0}
+        width = 414,
+        height = 334 --, shift = {0.15, 0}
       },
       t_down =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-t-down.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
         priority = "extra-high",
-        width = 44,
-        height = 50 --, shift = {0, 0}
+        width = 414,
+        height = 334 --, shift = {0, 0}
       },
       t_up =
       {
-        filename = "__base__/graphics/entity/boiler/boiler-t-up.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
         priority = "extra-high",
-        width = 46,
-        height = 70 --, shift = {0, 0}
+        width = 414,
+        height = 334 --, shift = {0, 0}
       }
     },
     fire =
     {
-      left = boilerfires.down,
-      down = boilerfires.left,
-      left_down = boilerfires.right,
-      right_down = boilerfires.left,
-      left_up = boilerfires.down,
-      right_up = boilerfires.down,
-      t_up = boilerfires.down
-    },
-    burning_cooldown = 20,
-    pictures = pipepictures(),
-    name = "nuclear-fission-reactor-3-by-5",
-    collision_box = {{-1.30,-2.30},{1.30,2.30}},
-    selection_box = {{-1.50,-2.50},{1.50,2.50}},
-    fluid_box =
-    {
-      base_area = 5,
-      pipe_connections =
-      {
-        {position= {-1, 3}},
-        {position= {-1, -3}},
-        {position= {0, 3}},
-        {position= {0, -3}},
-        {position= {1, 3}},
-        {position= {1, -3}},
-
-        {position= {2, -2}},
-        {position= {-2, -2}},
-        {position= {2, -1}},
-        {position= {-2, -1}},
-        {position= {2, 0}},
-        {position= {-2, 0}},
-        {position= {2, 1}},
-        {position= {-2, 1}},
-        {position= {2, 2}},
-        {position= {-2, 2}},
-      }
-    }
-  },
-  {
-    type = "boiler",
-    icon = "__base__/graphics/icons/boiler.png",
-    flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "nuclear-fission-reactor-kit"},
-    max_health = 500,
-    corpse = "small-remnants",
-    resistances =
-    {
-      {
-        type = "fire",
-        percent = 80
-      }
-    },
-    energy_consumption = "10000kW",
-    burner =
-    {
-      effectivity = 1,
-      fuel_inventory_size = 1,
-      emissions = 0
-    },
-    working_sound =
-    {
-      sound =
-      {
-        filename = "__base__/sound/boiler.ogg",
-        volume = 0.8
-      },
-      max_sounds_per_type = 3
-    },
-    structure =
-    {
-      left =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-left.png",
-        priority = "extra-high",
-        width = 46,
-        height = 46,
-        shift = {0.03125, 0}
-      },
-      down =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-down.png",
-        priority = "extra-high",
-        width = 66,
-        height = 72 --, shift = {0.05, 0}
-      },
-      left_down =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-left-down.png",
-        priority = "extra-high",
-        width = 60,
-        height = 50 --, shift = {0, -0.02}
-      },
-      right_down =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-right-down.png",
-        priority = "extra-high",
-        width = 44,
-        height = 50
-      },
-      left_up =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-left-up.png",
-        priority = "extra-high",
-        width = 66,
-        height = 74 --, shift = {0.05, 0}
-      },
-      right_up =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-right-up.png",
-        priority = "extra-high",
-        width = 46,
-        height = 72 --, shift = {0.15, 0}
-      },
-      t_down =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-t-down.png",
-        priority = "extra-high",
-        width = 44,
-        height = 50 --, shift = {0, 0}
-      },
-      t_up =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-t-up.png",
-        priority = "extra-high",
-        width = 46,
-        height = 70 --, shift = {0, 0}
-      }
-    },
-    fire =
-    {
-      left = boilerfires.down,
-      down = boilerfires.left,
-      left_down = boilerfires.right,
-      right_down = boilerfires.left,
-      left_up = boilerfires.down,
-      right_up = boilerfires.down,
-      t_up = boilerfires.down
-    },
-    burning_cooldown = 20,
-    pictures = pipepictures(),
-    name = "nuclear-fission-reactor-5-by-3",
-    collision_box = {{-2.30,-1.30},{2.30,1.30}},
-    selection_box = {{-2.50,-1.50},{2.50,1.50}},
-    fluid_box =
-    {
-      base_area = 5,
-      pipe_connections =
-      {
-        {position= {-2, 2}},
-        {position= {-2, -2}},
-        {position= {-1, 2}},
-        {position= {-1, -2}},
-        {position= {0, 2}},
-        {position= {0, -2}},
-        {position= {1, 2}},
-        {position= {1, -2}},
-        {position= {2, 2}},
-        {position= {2, -2}},
-
-        {position= {3, -1}},
-        {position= {-3, -1}},
-        {position= {3, 0}},
-        {position= {-3, 0}},
-        {position= {3, 1}},
-        {position= {-3, 1}},
-      }
-    }
-  },
-  {
-    type = "boiler",
-    icon = "__base__/graphics/icons/boiler.png",
-    flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "nuclear-fission-reactor-kit"},
-    max_health = 500,
-    corpse = "small-remnants",
-    resistances =
-    {
-      {
-        type = "fire",
-        percent = 80
-      }
-    },
-    energy_consumption = "10000kW",
-    burner =
-    {
-      effectivity = 1,
-      fuel_inventory_size = 1,
-      emissions = 0
-    },
-    working_sound =
-    {
-      sound =
-      {
-        filename = "__base__/sound/boiler.ogg",
-        volume = 0.8
-      },
-      max_sounds_per_type = 3
-    },
-    structure =
-    {
-      left =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-left.png",
-        priority = "extra-high",
-        width = 46,
-        height = 46,
-        shift = {0.03125, 0}
-      },
-      down =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-down.png",
-        priority = "extra-high",
-        width = 66,
-        height = 72 --, shift = {0.05, 0}
-      },
-      left_down =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-left-down.png",
-        priority = "extra-high",
-        width = 60,
-        height = 50 --, shift = {0, -0.02}
-      },
-      right_down =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-right-down.png",
-        priority = "extra-high",
-        width = 44,
-        height = 50
-      },
-      left_up =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-left-up.png",
-        priority = "extra-high",
-        width = 66,
-        height = 74 --, shift = {0.05, 0}
-      },
-      right_up =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-right-up.png",
-        priority = "extra-high",
-        width = 46,
-        height = 72 --, shift = {0.15, 0}
-      },
-      t_down =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-t-down.png",
-        priority = "extra-high",
-        width = 44,
-        height = 50 --, shift = {0, 0}
-      },
-      t_up =
-      {
-        filename = "__base__/graphics/entity/boiler/boiler-t-up.png",
-        priority = "extra-high",
-        width = 46,
-        height = 70 --, shift = {0, 0}
-      }
-    },
-    fire =
-    {
-      left = boilerfires.down,
-      down = boilerfires.left,
-      left_down = boilerfires.right,
-      right_down = boilerfires.left,
-      left_up = boilerfires.down,
-      right_up = boilerfires.down,
-      t_up = boilerfires.down
     },
     burning_cooldown = 20,
     pictures = pipepictures(),
@@ -495,27 +219,10 @@ data:extend({
       base_area = 5,
       pipe_connections =
       {
-        {position= {-2, 3}},
-        {position= {-2, -3}},
-        {position= {-1, 3}},
-        {position= {-1, -3}},
         {position= {0, 3}},
         {position= {0, -3}},
-        {position= {1, 3}},
-        {position= {1, -3}},
-        {position= {2, 3}},
-        {position= {2, -3}},
-
-        {position= {3, -2}},
-        {position= {-3, -2}},
-        {position= {3, -1}},
-        {position= {-3, -1}},
         {position= {3, 0}},
         {position= {-3, 0}},
-        {position= {3, 1}},
-        {position= {-3, 1}},
-        {position= {3, 2}},
-        {position= {-3, 2}},
       }
     }
   },

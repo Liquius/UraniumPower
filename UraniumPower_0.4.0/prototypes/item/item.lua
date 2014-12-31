@@ -55,5 +55,16 @@ data:extend({
     order = "b[pipe]-c[small-pump]",
     place_result = "pressure-pump",
     stack_size = 50
+  },
+  {
+    type = "item",
+    name = "fission-reactor-fuel",
+    icon = "__base__/graphics/icons/coal.png",
+    dark_background_icon = "__base__/graphics/icons/coal-dark-background.png",
+    flags = {"goes-to-main-inventory"},
+    fuel_value = "1MJ",
+    subgroup = "raw-material",
+    order = "b[coal]",
+    stack_size = 32
   }
 })

@@ -12,10 +12,10 @@
         percent = 80
       }
     },
-    energy_consumption = "10000kW",
+    energy_consumption = "12500kW",
     burner =
     {
-      effectivity = 1,
+      effectivity = 0.1,
       fuel_inventory_size = 1,
       emissions = 0
     },
