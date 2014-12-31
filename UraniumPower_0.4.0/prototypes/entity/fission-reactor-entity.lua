@@ -150,60 +150,67 @@ data:extend({
     {
       left =
       {
-        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5-left.png",
         priority = "extra-high",
-        width = 414,
-        height = 334,
-        shift = {0.03125, 0}
+        width = 400,
+        height = 350,
+        shift = {0.05, -1.18}
       },
       down =
       {
-        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5-down.png",
         priority = "extra-high",
-        width = 414,
-        height = 334 --, shift = {0.05, 0}
+        width = 400,
+        height = 350, 
+        shift = {0.05, -1.18}
       },
       left_down =
       {
-        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5-left-down.png",
         priority = "extra-high",
-        width = 414,
-        height = 334 --, shift = {0, -0.02}
+        width = 400,
+        height = 350, 
+        shift = {0.05, -1.18}
       },
       right_down =
       {
-        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5-right-down.png",
         priority = "extra-high",
-        width = 414,
-        height = 334
+        width = 400,
+        height = 350,
+        shift = {0.05, -1.18}
       },
       left_up =
       {
-        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5-left-up.png",
         priority = "extra-high",
-        width = 414,
-        height = 334 --, shift = {0.05, 0}
+        width = 400,
+        height = 350, 
+        shift = {0.05, -1.18}
       },
       right_up =
       {
-        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5-right-up.png",
         priority = "extra-high",
-        width = 414,
-        height = 334 --, shift = {0.15, 0}
+        width = 400,
+        height = 350, 
+        shift = {0.05, -1.18}
       },
       t_down =
       {
-        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5-t-down.png",
         priority = "extra-high",
-        width = 414,
-        height = 334 --, shift = {0, 0}
+        width = 400,
+        height = 350, 
+        shift = {0.05, -1.18}
       },
       t_up =
       {
-        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5.png",
+        filename = "__UraniumPower__/graphics/entity/nuclear-fission-reactor/5-by-5-left.png",
         priority = "extra-high",
-        width = 414,
-        height = 334 --, shift = {0, 0}
+        width = 400,
+        height = 350, 
+        shift = {0.05, -1.18}
       }
     },
     fire =
