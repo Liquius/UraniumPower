@@ -1,19 +1,6 @@
 data:extend({
   {
     type = "recipe",
-    name = "nuclear-fission-reactor-kit",
-    enabled = "false",
-    ingredients =
-    {
-      {"steel-plate", 45},
-      {"iron-gear-wheel", 45},
-      {"advanced-circuit", 45}
-    },
-    result = "nuclear-fission-reactor-kit",
-    energy_required = 15
-  },
-  {
-    type = "recipe",
     name = "uraninite-slurry",
     category = "crafting-with-fluid",
     energy_required = 3,

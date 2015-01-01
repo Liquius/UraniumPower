@@ -35,7 +35,11 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "nuclear-fission-reactor-kit"
+        recipe = "nuclear-fission-reactor-3-by-3"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "nuclear-fission-reactor-5-by-5"
       },
       {
         type = "unlock-recipe",

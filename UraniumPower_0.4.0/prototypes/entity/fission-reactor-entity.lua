@@ -3,7 +3,7 @@ data:extend({
     type = "boiler",
     icon = "__base__/graphics/icons/boiler.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "nuclear-fission-reactor-kit"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "nuclear-fission-reactor-3-by-3"},
     max_health = 500,
     corpse = "small-remnants",
     resistances =
@@ -13,7 +13,7 @@ data:extend({
         percent = 80
       }
     },
-    energy_consumption = "12500kW",
+    energy_consumption = "18MW",
     burner =
     {
       effectivity = 0.1,
@@ -120,7 +120,7 @@ data:extend({
     type = "boiler",
     icon = "__base__/graphics/icons/boiler.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "nuclear-fission-reactor-kit"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "nuclear-fission-reactor-5-by-5"},
     max_health = 500,
     corpse = "small-remnants",
     resistances =
@@ -130,7 +130,7 @@ data:extend({
         percent = 80
       }
     },
-    energy_consumption = "12500kW",
+    energy_consumption = "50MW",
     burner =
     {
       effectivity = 0.1,

@@ -28,26 +28,6 @@ data:extend({
   },
   {
     type = "item",
-    name = "nuclear-fission-reactor-kit",
-    icon = "__UraniumPower__/graphics/icons/nuclear-fission-reactor.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
-    order = "f[nuclear-fission-reactor]",
-    place_result = "nuclear-fission-reactor-kit",
-    stack_size = 10
-  },
-  {
-    type = "item",
-    name = "fission-reactor-chest",
-    icon = "__base__/graphics/icons/steel-chest.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "storage",
-    order = "a[items]-c[steel-chest]",
-    place_result = "fission-reactor-chest",
-    stack_size = 50
-  },
-  {
-    type = "item",
     name = "pressure-pump",
     icon = "__base__/graphics/icons/small-pump.png",
     flags = {"goes-to-quickbar"},
@@ -59,12 +39,12 @@ data:extend({
   {
     type = "item",
     name = "fission-reactor-fuel",
-    icon = "__base__/graphics/icons/coal.png",
+    icon = "__UraniumPower__/graphics/icons/fission-reactor-fuel.png",
     dark_background_icon = "__base__/graphics/icons/coal-dark-background.png",
     flags = {"goes-to-main-inventory"},
     fuel_value = "1MJ",
     subgroup = "raw-material",
     order = "b[coal]",
-    stack_size = 32
+    stack_size = 500
   }
 })

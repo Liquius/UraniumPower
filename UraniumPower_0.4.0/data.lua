@@ -17,6 +17,7 @@ require("prototypes.item.uranium-pellet-item")
 
 require("prototypes.recipe.ammo-recipe")
 require("prototypes.recipe.fuel-assembly-recipe")
+require("prototypes.recipe.nuclear-fission-reactor-recipe")
 require("prototypes.recipe.recipe")
 require("prototypes.recipe.uranium-hexafluoride-recipe")
 require("prototypes.recipe.uranium-pellet-recipe")
