@@ -19,6 +19,10 @@ data:extend(
     {
       {
         type = "unlock-recipe",
+        recipe = "uranium-hexafluoride"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "pressure-pump"
       },
       {
