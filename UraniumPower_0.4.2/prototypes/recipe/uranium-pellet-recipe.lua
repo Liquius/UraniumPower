@@ -2,7 +2,7 @@ data:extend({
   {
     type = "recipe",
     category = "crafting-with-fluid",
-    energy_required = 1,
+    energy_required = 0.5,
     enabled = "false",
     name = "uranium-pellet-01",
     ingredients =
@@ -17,7 +17,7 @@ data:extend({
   {
     type = "recipe",
     category = "crafting-with-fluid",
-    energy_required = 1,
+    energy_required = 0.5,
     enabled = "false",
     name = "uranium-pellet-02",
     ingredients =
@@ -32,7 +32,7 @@ data:extend({
   {
     type = "recipe",
     category = "crafting-with-fluid",
-    energy_required = 1,
+    energy_required = 0.5,
     enabled = "false",
     name = "uranium-pellet-03",
     ingredients =
@@ -47,7 +47,7 @@ data:extend({
   {
     type = "recipe",
     category = "crafting-with-fluid",
-    energy_required = 1,
+    energy_required = 0.5,
     enabled = "false",
     name = "uranium-pellet-04",
     ingredients =
@@ -62,7 +62,7 @@ data:extend({
   {
     type = "recipe",
     category = "crafting-with-fluid",
-    energy_required = 1,
+    energy_required = 0.5,
     enabled = "false",
     name = "uranium-pellet-05",
     ingredients =
@@ -77,7 +77,7 @@ data:extend({
   {
     type = "recipe",
     category = "crafting-with-fluid",
-    energy_required = 1,
+    energy_required = 0.5,
     enabled = "false",
     name = "uranium-pellet-06",
     ingredients =
@@ -92,7 +92,7 @@ data:extend({
   {
     type = "recipe",
     category = "crafting-with-fluid",
-    energy_required = 1,
+    energy_required = 0.5,
     enabled = "false",
     name = "uranium-pellet-07",
     ingredients =
@@ -107,7 +107,7 @@ data:extend({
   {
     type = "recipe",
     category = "crafting-with-fluid",
-    energy_required = 1,
+    energy_required = 0.5,
     enabled = "false",
     name = "uranium-pellet-08",
     ingredients =
@@ -122,7 +122,7 @@ data:extend({
   {
     type = "recipe",
     category = "crafting-with-fluid",
-    energy_required = 1,
+    energy_required = 0.5,
     enabled = "false",
     name = "uranium-pellet-09",
     ingredients =
@@ -137,7 +137,7 @@ data:extend({
   {
     type = "recipe",
     category = "crafting-with-fluid",
-    energy_required = 1,
+    energy_required = 0.5,
     enabled = "false",
     name = "uranium-pellet-10",
     ingredients =

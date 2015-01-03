@@ -19,7 +19,7 @@ data:extend({
     type = "recipe",
     name = "yellowcake",
     category = "chemistry",
-    energy_required = 1,
+    energy_required = 5,
     enabled = "false",
     ingredients =
     {
@@ -61,7 +61,7 @@ data:extend({
     results=
     {
       {type="item", name="empty-barrel", amount=1},
-      {type="fluid", name="uranium-hexafluoride-02", amount=50}
+      {type="fluid", name="uranium-hexafluoride-02", amount=75}
     },
     icon = "__UraniumPower__/graphics/icons/uranium-hexafluoride.png",
     subgroup = "fluid",
@@ -88,11 +88,11 @@ data:extend({
     enabled = "false",
     ingredients =
     {     
-      {type="fluid", name="water", amount=10} 
+      {type="fluid", name="water", amount=20} 
     },
     results=
     {
-      {type="fluid", name="pressurised-water", amount=10},
+      {type="fluid", name="pressurised-water", amount=20},
     }
   }
 })

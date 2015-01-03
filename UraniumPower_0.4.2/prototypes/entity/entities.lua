@@ -76,17 +76,6 @@ data:extend({
         animation_speed = 0.5
       }
     },
---[[    animation =
-    {
-      filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2.png",
-      priority = "high",
-      width = 113,
-      height = 99,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.4, -0.06}
-    },
-]]
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
@@ -105,7 +94,7 @@ data:extend({
       apparent_volume = 1.5,
     },
     crafting_categories = {"pressure-pump"},
-    crafting_speed = 0.75,
+    crafting_speed = 1,
     energy_source =
     {
       type = "electric",
