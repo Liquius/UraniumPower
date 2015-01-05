@@ -42,9 +42,9 @@ data:extend({
     icon = "__UraniumPower__/graphics/icons/fission-reactor-fuel.png",
     dark_background_icon = "__base__/graphics/icons/coal-dark-background.png",
     flags = {"goes-to-main-inventory"},
-    fuel_value = "1MJ",
+    fuel_value = "1.5MJ",
     subgroup = "raw-material",
     order = "b[coal]",
-    stack_size = 500
+    stack_size = 100
   }
 })

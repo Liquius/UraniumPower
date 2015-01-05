@@ -2,17 +2,18 @@ require "defines"
 require "util"
 
 
+fuelAssemblyValue01 = 0.071
+fuelAssemblyValue02 = 0.143
+fuelAssemblyValue03 = 0.214
+fuelAssemblyValue04 = 0.286
+fuelAssemblyValue05 = 0.357
+fuelAssemblyValue06 = 0.429
+fuelAssemblyValue07 = 0.500
+fuelAssemblyValue08 = 0.571
+fuelAssemblyValue09 = 0.643
+fuelAssemblyValue10 = 0.714
 
-fuelAssemblyValue01 = 0.500
-fuelAssemblyValue02 = 1.000
-fuelAssemblyValue03 = 1.500
-fuelAssemblyValue04 = 2.000
-fuelAssemblyValue05 = 2.500
-fuelAssemblyValue06 = 3.000
-fuelAssemblyValue07 = 3.500
-fuelAssemblyValue08 = 4.000
-fuelAssemblyValue09 = 4.500
-fuelAssemblyValue10 = 5.000
+
 
 
 

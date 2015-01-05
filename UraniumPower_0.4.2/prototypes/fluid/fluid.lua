@@ -5,7 +5,7 @@ data:extend(
     name = "pressurised-water",
     default_temperature = 15,
     max_temperature = 275,
-    heat_capacity = "1KJ",
+    heat_capacity = "1.25KJ",
     base_color = {r=0, g=0.34, b=0.6},
     flow_color = {r=0.7, g=0.7, b=0.7},
     icon = "__base__/graphics/icons/fluid/water.png",

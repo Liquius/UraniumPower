@@ -70,5 +70,36 @@ data:extend(
     order = "d[rocket-launcher]-a[basic]",
     stack_size = 100
   },
-}
-)
+  {
+    type = "ammo",
+    name = "small-nuke-shell",
+    icon = "__UraniumPower__/graphics/icons/uranium-cannon-shell.png",
+    flags = {"goes-to-main-inventory"},
+    ammo_type =
+    {
+      category = "cannon-shell",
+      target_type = "direction",
+      source_effects =
+      {
+        type = "create-entity",
+        entity_name = "explosion-gunshot"
+      },
+      action =
+      {
+        type = "direct",
+        action_delivery =
+        {
+          type = "projectile",
+          projectile = "small-nuke-projectile",
+          starting_speed = 1,
+          direction_deviation = 0.1,
+          range_deviation = 0.1,
+          max_range = 100
+        }
+      },
+    },
+    subgroup = "ammo",
+    order = "d[rocket-launcher]-a[basic]",
+    stack_size = 100
+  }
+})

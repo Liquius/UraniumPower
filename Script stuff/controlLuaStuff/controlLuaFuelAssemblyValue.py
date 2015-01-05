@@ -5,7 +5,7 @@ def makePrototype(x):
 
 	p = ''
 
-	p += 'fuelAssemblyValue%02i = %.03f\n' %(x, x/2.00)
+	p += 'fuelAssemblyValue%02i = %.03f\n' %(x, x/14.00)
 	return p
 
 output1 = ''
