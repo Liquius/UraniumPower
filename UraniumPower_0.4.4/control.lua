@@ -14,7 +14,7 @@ fuelAssemblyValue09 = 0.643
 fuelAssemblyValue10 = 0.714
 
 
-
+-- Remember to fix multplayer
 
 
 
@@ -65,6 +65,7 @@ game.onevent(defines.events.onbuiltentity, function(event)
 			reactorAndChest[1] = results[1]
 			reactorAndChest[2] = event.createdentity
 			reactorAndChest[3] = 0
+			reactorAndChest[4] = 0
 			table.insert(glob.LReactorAndChest, reactorAndChest)
 			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
 		else
@@ -79,10 +80,11 @@ game.onevent(defines.events.onbuiltentity, function(event)
 			if glob.LReactorAndChest == nil then
 				glob.LReactorAndChest = {}
 			end
-			reactorAndChest = {true, true, true}
+			reactorAndChest = {true, true, true, true}
 			reactorAndChest[1] = results[1]
 			reactorAndChest[2] = event.createdentity
 			reactorAndChest[3] = 0
+			reactorAndChest[4] = 0
 			table.insert(glob.LReactorAndChest, reactorAndChest)
 			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
 		else
@@ -111,7 +113,7 @@ function calculate_fuel_amount()
 					LReactorAndChest[3] = LReactorAndChest[3] + fuelAssemblyValue08 * (chest.getitemcount("fuel-assembly-08"))
 					LReactorAndChest[3] = LReactorAndChest[3] + fuelAssemblyValue09 * (chest.getitemcount("fuel-assembly-09"))
 					LReactorAndChest[3] = LReactorAndChest[3] + fuelAssemblyValue10 * (chest.getitemcount("fuel-assembly-10"))
-					LReactorAndChest[3] = math.floor(LReactorAndChest[3])
+					--LReactorAndChest[3] = math.floor(LReactorAndChest[3])
 				else 
 					LReactorAndChest[3] = 0
 				end
@@ -127,9 +129,11 @@ function add_reactor_fuel()
 	if glob.LReactorAndChest ~= nil then
 		for k,LReactorAndChest in pairs(glob.LReactorAndChest) do
 			if LReactorAndChest[1].valid and LReactorAndChest[2].valid then
-				local fuelCount = LReactorAndChest[3]
+				local fuelCount = LReactorAndChest[3] + LReactorAndChest[4]
+				fuelCountInt = math.floor(fuelCount)
+				LReactorAndChest[4] = fuelCount - fuelCountInt
 				if fuelCount >=1 then
-					LReactorAndChest[1].insert({name = "fission-reactor-fuel", count = fuelCount})
+					LReactorAndChest[1].insert({name = "fission-reactor-fuel", count = fuelCountInt})
 				end
 			else
 				table.remove(glob.LReactorAndChest, k)
