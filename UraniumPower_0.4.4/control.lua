@@ -2,16 +2,17 @@ require "defines"
 require "util"
 
 
-fuelAssemblyValue01 = 0.071
-fuelAssemblyValue02 = 0.143
-fuelAssemblyValue03 = 0.214
-fuelAssemblyValue04 = 0.286
-fuelAssemblyValue05 = 0.357
-fuelAssemblyValue06 = 0.429
-fuelAssemblyValue07 = 0.500
-fuelAssemblyValue08 = 0.571
-fuelAssemblyValue09 = 0.643
-fuelAssemblyValue10 = 0.714
+fuelAssemblyValue01 = 0.0238
+fuelAssemblyValue02 = 0.0476
+fuelAssemblyValue03 = 0.0714
+fuelAssemblyValue04 = 0.0952
+fuelAssemblyValue05 = 0.1190
+fuelAssemblyValue06 = 0.1429
+fuelAssemblyValue07 = 0.1667
+fuelAssemblyValue08 = 0.1905
+fuelAssemblyValue09 = 0.2143
+fuelAssemblyValue10 = 0.2381
+
 
 
 -- Remember to fix multplayer
@@ -30,7 +31,7 @@ game.onevent(defines.events.ontick, function(event)
 		tickingA = tickingA - 1
 	end
 	if tickingB == 0 then
-		tickingB = 29
+		tickingB = 9
 		add_reactor_fuel()
 	else
 		tickingB = tickingB - 1
@@ -113,7 +114,6 @@ function calculate_fuel_amount()
 					LReactorAndChest[3] = LReactorAndChest[3] + fuelAssemblyValue08 * (chest.getitemcount("fuel-assembly-08"))
 					LReactorAndChest[3] = LReactorAndChest[3] + fuelAssemblyValue09 * (chest.getitemcount("fuel-assembly-09"))
 					LReactorAndChest[3] = LReactorAndChest[3] + fuelAssemblyValue10 * (chest.getitemcount("fuel-assembly-10"))
-					--LReactorAndChest[3] = math.floor(LReactorAndChest[3])
 				else 
 					LReactorAndChest[3] = 0
 				end
