@@ -47,38 +47,35 @@ game.onevent(defines.events.onbuiltentity, function(event)
 
 	if event.createdentity.name == "nuclear-fission-reactor-3-by-3" then
 		event.createdentity.operable = false
-		for i, player in ipairs(game.players) do
-			if game.players[i].canreachentity(event.createdentity) then
-				game.players[i].insert({name = "nuclear-fission-reactor-chest-9", count = 1})
-			end
-		end
 		game.player.print("Place the reactor access port next to the fission reactor.")
+		for _,v in ipairs(game.players) do
+			v.insert({name = "nuclear-fission-reactor-chest-9", count = 1})
+		end
+
 	elseif event.createdentity.name == "nuclear-fission-reactor-5-by-5" then
 		event.createdentity.operable = false
-		for i, player in ipairs(game.players) do
-			if game.players[i].canreachentity(event.createdentity) then
-				game.players[i].insert({name = "nuclear-fission-reactor-chest-25", count = 1})
-			end
-		end
 		game.player.print("Place the reactor access port next to the fission reactor.")
+		for _,v in ipairs(game.players) do
+			v.insert({name = "nuclear-fission-reactor-chest-25", count = 1})
+		end
+
 	elseif event.createdentity.name == "nuclear-fission-reactor-chest-9" then
 		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-3-by-3"}
 		if #results == 1 then
 			if glob.LReactorAndChest == nil then
 				glob.LReactorAndChest = {}
 			end
-			reactorAndChest = {true, true, true}
+			reactorAndChest = {true, true, true, true}
 			reactorAndChest[1] = results[1]
 			reactorAndChest[2] = event.createdentity
 			reactorAndChest[3] = 0
 			reactorAndChest[4] = 0
 			table.insert(glob.LReactorAndChest, reactorAndChest)
 			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+
 		else
-			for i, player in ipairs(game.players) do
-				if game.players[i].canreachentity(event.createdentity) then
-					game.players[i].insert({name = "nuclear-fission-reactor-chest-9", count = 1})
-				end
+			for _,v in ipairs(game.players) do
+				v.insert({name = "nuclear-fission-reactor-chest-9", count = 1})
 			end
 			event.createdentity.destroy()
 			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory.")
@@ -96,11 +93,10 @@ game.onevent(defines.events.onbuiltentity, function(event)
 			reactorAndChest[4] = 0
 			table.insert(glob.LReactorAndChest, reactorAndChest)
 			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+
 		else
-			for i, player in ipairs(game.players) do
-				if game.players[i].canreachentity(event.createdentity) then
-					game.players[i].insert({name = "nuclear-fission-reactor-chest-25", count = 1})
-				end
+			for _,v in ipairs(game.players) do
+				v.insert({name = "nuclear-fission-reactor-chest-25", count = 1})
 			end
 			event.createdentity.destroy()
 			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory.")
