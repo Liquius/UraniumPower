@@ -46,5 +46,15 @@ data:extend({
     subgroup = "raw-material",
     order = "b[coal]",
     stack_size = 100
+  },
+  {
+    type = "item",
+    name = "heat-exchanger",
+    icon = "__base__/graphics/icons/small-pump.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "energy-pipe-distribution",
+    order = "b[pipe]-c[small-pump]",
+    place_result = "heat-exchanger",
+    stack_size = 50
   }
 })

@@ -36,6 +36,10 @@ game.onevent(defines.events.ontick, function(event)
 	else
 		tickingB = tickingB - 1
 	end
+
+	if glob.LHeatExchanger ~= nil then
+		do_heat_exchange()
+	end
 end)
 
 
@@ -45,20 +49,20 @@ game.onevent(defines.events.onbuiltentity, function(event)
 	local x2 = x1+2
 	local y2 = y1+2
 
+-- Fission reactor stuff
+
 	if event.createdentity.name == "nuclear-fission-reactor-3-by-3" then
 		event.createdentity.operable = false
-		game.player.print("Place the reactor access port next to the fission reactor.")
-		for _,v in ipairs(game.players) do
-			v.insert({name = "nuclear-fission-reactor-chest-9", count = 1})
+		for i,player in ipairs(game.players) do
+			game.players[i].insert({name = "nuclear-fission-reactor-chest-9", count = 1})
+			game.players[i].print("Place the reactor access port next to the fission reactor.")
 		end
-
 	elseif event.createdentity.name == "nuclear-fission-reactor-5-by-5" then
 		event.createdentity.operable = false
-		game.player.print("Place the reactor access port next to the fission reactor.")
-		for _,v in ipairs(game.players) do
-			v.insert({name = "nuclear-fission-reactor-chest-25", count = 1})
+		for i,player in ipairs(game.players) do
+			game.players[i].insert({name = "nuclear-fission-reactor-chest-25", count = 1})
+			game.players[i].print("Place the reactor access port next to the fission reactor.")
 		end
-
 	elseif event.createdentity.name == "nuclear-fission-reactor-chest-9" then
 		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-3-by-3"}
 		if #results == 1 then
@@ -71,14 +75,15 @@ game.onevent(defines.events.onbuiltentity, function(event)
 			reactorAndChest[3] = 0
 			reactorAndChest[4] = 0
 			table.insert(glob.LReactorAndChest, reactorAndChest)
-			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
-
+			for i,player in ipairs(game.players) do
+				game.players[i].print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+			end
 		else
-			for _,v in ipairs(game.players) do
-				v.insert({name = "nuclear-fission-reactor-chest-9", count = 1})
+			for i,player in ipairs(game.players) do
+				game.players[i].insert({name = "nuclear-fission-reactor-chest-9", count = 1})
+				game.players[i].print("Reactor access port cannot find a fission reactor! Returning to your inventory.")
 			end
 			event.createdentity.destroy()
-			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory.")
 		end
 	elseif event.createdentity.name == "nuclear-fission-reactor-chest-25" then
 		results = game.findentitiesfiltered{area = {{x1, y1}, {x2, y2}}, name = "nuclear-fission-reactor-5-by-5"}
@@ -92,14 +97,47 @@ game.onevent(defines.events.onbuiltentity, function(event)
 			reactorAndChest[3] = 0
 			reactorAndChest[4] = 0
 			table.insert(glob.LReactorAndChest, reactorAndChest)
-			game.player.print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
-
+			for i,player in ipairs(game.players) do
+				game.players[i].print("Reactor access port successfully linked! Ready to accept fuel assemblies!")
+			end
 		else
-			for _,v in ipairs(game.players) do
-				v.insert({name = "nuclear-fission-reactor-chest-25", count = 1})
+			for i,player in ipairs(game.players) do
+				game.players[i].insert({name = "nuclear-fission-reactor-chest-25", count = 1})
+				game.players[i].print("Reactor access port cannot find a fission reactor! Returning to your inventory.")
 			end
 			event.createdentity.destroy()
-			game.player.print("Reactor access port cannot find a fission reactor! Returning to your inventory.")
+		end
+
+-- Heat exchanger stuff
+
+	elseif event.createdentity.name == "heat-exchanger" then
+		if glob.LHeatExchanger == nil then
+			glob.LHeatExchanger = {}
+		end
+
+		local x = event.createdentity.position.x
+		local y = event.createdentity.position.y
+
+		local up = game.findentitiesfiltered{area = {{x, y+1}, {x, y+1}}, name = "pipe"}
+		local down = game.findentitiesfiltered{area = {{x, y-1}, {x, y-1}}, name = "pipe"}
+		local left = game.findentitiesfiltered{area = {{x-1, y}, {x-1, y}}, name = "pipe"}
+		local right = game.findentitiesfiltered{area = {{x+1, y}, {x+1, y}}, name = "pipe"}
+ 
+		heatExchanger = {}	
+		heatExchanger[1] = event.createdentity
+
+		if up[1] ~= nil and down[1] ~= nil then
+			game.player.print("up and down working")
+
+			heatExchanger[2] = up[1]
+			heatExchanger[3] = down[1]
+			table.insert(glob.LHeatExchanger, heatExchanger)
+		elseif left[1] ~= nil and right[1] ~= nil then
+			game.player.print("left and right working")
+
+			heatExchanger[2] = left[1]
+			heatExchanger[3] = right[1]
+			table.insert(glob.LHeatExchanger, heatExchanger)
 		end
 	end
 end)
@@ -150,3 +188,28 @@ function add_reactor_fuel()
 	end
 end
 
+
+function do_heat_exchange()
+	for k,LHeatExchanger in pairs(glob.LHeatExchanger) do
+		if LHeatExchanger[1].valid then
+			if LHeatExchanger[2].fluidbox[1] and LHeatExchanger[3].fluidbox[1] ~= nil then
+
+				local v1 = LHeatExchanger[2].fluidbox[1].amount
+				local t1 = LHeatExchanger[2].fluidbox[1].temperature
+				local v2 = LHeatExchanger[3].fluidbox[1].amount
+				local t2 = LHeatExchanger[3].fluidbox[1].temperature
+				local newFluidBox1 = LHeatExchanger[2].fluidbox[1]
+				local newFluidBox2 = LHeatExchanger[3].fluidbox[1]
+
+				newTemp = (v1*t1 + v2*t2) / (v1 + v2)
+
+				newFluidBox1["temperature"] = newTemp
+				newFluidBox2["temperature"] = newTemp
+
+				LHeatExchanger[2].fluidbox[1] = newFluidBox1
+				LHeatExchanger[3].fluidbox[1] = newFluidBox2
+
+			end
+		end
+	end
+end
