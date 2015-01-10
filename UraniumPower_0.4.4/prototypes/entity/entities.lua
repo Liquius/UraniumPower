@@ -1,5 +1,81 @@
 data:extend({
   {
+    type = "pump",
+    name = "fast-pump",
+    icon = "__base__/graphics/icons/small-pump.png",
+    flags = {"placeable-neutral", "player-creation"},
+    minable = {mining_time = 1, result = "small-pump"},
+    max_health = 80,
+    fast_replaceable_group = "pipe",
+    corpse = "small-remnants",
+    resistances =
+    {
+      {
+        type = "fire",
+        percent = 70
+      }
+    },
+    collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
+    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+    fluid_box =
+    {
+      base_area = 1,
+      pipe_covers = pipecoverspictures(),
+      pipe_connections =
+      {
+        { position = {0, -1}, type="output" },
+        { position = {0, 1}, type="input" },
+      },
+    },
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "secondary-input",
+      emissions = 0.01 / 2.5
+    },
+    energy_usage = "150kW",
+    pumping_speed = 3,
+    animations =
+    {
+      north =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-up.png",
+        width = 46,
+        height = 56,
+        frame_count = 8,
+        shift = {0.09375, 0.03125},
+        animation_speed = 1
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-right.png",
+        width = 51,
+        height = 56,
+        frame_count = 8,
+        shift = {0.265625, -0.21875},
+        animation_speed = 1
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-down.png",
+        width = 61,
+        height = 58,
+        frame_count = 8,
+        shift = {0.421875, -0.125},
+        animation_speed = 1
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-left.png",
+        width = 56,
+        height = 44,
+        frame_count = 8,
+        shift = {0.3125, 0.0625},
+        animation_speed = 1
+      }
+    }
+  },
+  {
     type = "assembling-machine",
     name = "pressure-pump",
     icon = "__base__/graphics/icons/small-pump.png",
@@ -19,7 +95,6 @@ data:extend({
     {
       {
         production_type = "input",
-        pipe_picture = assembler2pipepictures(),
         pipe_covers = pipecoverspictures(),
         base_area = 10,
         base_level = -1,
@@ -27,7 +102,6 @@ data:extend({
       },
       {
         production_type = "output",
-        pipe_picture = assembler2pipepictures(),
         pipe_covers = pipecoverspictures(),
         base_area = 10,
         base_level = 1,
@@ -46,7 +120,7 @@ data:extend({
         height = 56,
         frame_count = 8,
         shift = {0.09375, 0.03125},
-        animation_speed = 0.5
+        animation_speed = 0.2
       },
       east =
       {
@@ -55,7 +129,7 @@ data:extend({
         height = 56,
         frame_count = 8,
         shift = {0.265625, -0.21875},
-        animation_speed = 0.5
+        animation_speed = 0.2
       },
       south =
       {
@@ -64,7 +138,7 @@ data:extend({
         height = 58,
         frame_count = 8,
         shift = {0.421875, -0.125},
-        animation_speed = 0.5
+        animation_speed = 0.2
       },
       west =
       {
@@ -73,7 +147,7 @@ data:extend({
         height = 44,
         frame_count = 8,
         shift = {0.3125, 0.0625},
-        animation_speed = 0.5
+        animation_speed = 0.2
       }
     },
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },

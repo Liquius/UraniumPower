@@ -29,11 +29,21 @@ data:extend({
   {
     type = "item",
     name = "pressure-pump",
-    icon = "__base__/graphics/icons/small-pump.png",
+    icon = "__UraniumPower__/graphics/icons/pressure-pump.png",
     flags = {"goes-to-quickbar"},
     subgroup = "energy-pipe-distribution",
     order = "b[pipe]-c[small-pump]",
     place_result = "pressure-pump",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "fast-pump",
+    icon = "__UraniumPower__/graphics/icons/fast-pump.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "energy-pipe-distribution",
+    order = "b[pipe]-c[small-pump]",
+    place_result = "fast-pump",
     stack_size = 50
   },
   {
@@ -50,7 +60,7 @@ data:extend({
   {
     type = "item",
     name = "heat-exchanger",
-    icon = "__base__/graphics/icons/small-pump.png",
+    icon = "__UraniumPower__/graphics/icons/heat-exchanger.png",
     flags = {"goes-to-quickbar"},
     subgroup = "energy-pipe-distribution",
     order = "b[pipe]-c[small-pump]",

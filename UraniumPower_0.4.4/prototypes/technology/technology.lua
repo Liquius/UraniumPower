@@ -27,6 +27,14 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "fast-pump"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "heat-exchanger"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "pressurised-water"
       },
       {

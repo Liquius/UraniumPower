@@ -191,7 +191,7 @@ end
 
 function do_heat_exchange()
 	for k,LHeatExchanger in pairs(glob.LHeatExchanger) do
-		if LHeatExchanger[1].valid then
+		if LHeatExchanger[1].valid and LHeatExchanger[2].valid and LHeatExchanger[3].valid then
 			if LHeatExchanger[2].fluidbox[1] and LHeatExchanger[3].fluidbox[1] ~= nil then
 
 				local v1 = LHeatExchanger[2].fluidbox[1].amount
@@ -200,16 +200,66 @@ function do_heat_exchange()
 				local t2 = LHeatExchanger[3].fluidbox[1].temperature
 				local newFluidBox1 = LHeatExchanger[2].fluidbox[1]
 				local newFluidBox2 = LHeatExchanger[3].fluidbox[1]
+				local maxT1 = 100
+				local minT1 = 25
+				local heatCapacity1 = 1
+				local maxT2 = 100
+				local minT2 = 25
+				local heatCapacity2 = 1
 
-				newTemp = (v1*t1 + v2*t2) / (v1 + v2)
+				if LHeatExchanger[2].fluidbox[1].type == "pressurised-water" then
+					maxT1 = 275
+					minT1 = 15
+					heatCapacity1 = 1.25
+				elseif LHeatExchanger[2].fluidbox[1].type == "water" then
+					maxT1 = 100
+					minT1 = 15
+					heatCapacity1 = 1
+				end
 
-				newFluidBox1["temperature"] = newTemp
-				newFluidBox2["temperature"] = newTemp
+				if LHeatExchanger[3].fluidbox[1].type == "pressurised-water" then
+					maxT2 = 275
+					minT2 = 15
+					heatCapacity2 = 1.25
+				elseif LHeatExchanger[3].fluidbox[1].type == "water" then
+					maxT2 = 100
+					minT2 = 15
+					heatCapacity2 = 1
+				end
+
+				energy1 = v1*t1*heatCapacity1
+				energy2 = v2*t2*heatCapacity2
+				totalEnergy = energy1+energy2
+
+				newTemp = totalEnergy/(v1*heatCapacity1+v2*heatCapacity2)
+				--game.player.print(newTemp)
+
+
+				if newTemp > minT1 and newTemp < maxT1 and newTemp > minT2 and newTemp < maxT1 then
+					newTemp1 = newTemp
+					newTemp2 = newTemp
+				end
+					
+				if newTemp > maxT1 then
+					newTemp1 = maxT1
+					newTemp2 = (totalEnergy-(v1*maxT1*heatCapacity1))/(v2*heatCapacity2)
+				end
+
+				if newTemp > maxT2 then
+					newTemp2 = maxT2
+					newTemp1 = (totalEnergy-(v2*maxT2*heatCapacity2))/(v1*heatCapacity1)
+				end
+
+				--game.player.print("newTemp1 == "..newTemp1.."newTemp2 == "..newTemp2)
+
+				newFluidBox1["temperature"] = newTemp1
+				newFluidBox2["temperature"] = newTemp2
 
 				LHeatExchanger[2].fluidbox[1] = newFluidBox1
-				LHeatExchanger[3].fluidbox[1] = newFluidBox2
-
+				LHeatExchanger[3].fluidbox[1] = newFluidBox2	
 			end
+		else
+			table.remove(glob.LHeatExchanger, k)
 		end
 	end
 end
