@@ -127,13 +127,13 @@ game.onevent(defines.events.onbuiltentity, function(event)
 		heatExchanger[1] = event.createdentity
 
 		if up[1] ~= nil and down[1] ~= nil then
-			game.player.print("up and down working")
+			--game.player.print("up and down working")
 
 			heatExchanger[2] = up[1]
 			heatExchanger[3] = down[1]
 			table.insert(glob.LHeatExchanger, heatExchanger)
 		elseif left[1] ~= nil and right[1] ~= nil then
-			game.player.print("left and right working")
+			--game.player.print("left and right working")
 
 			heatExchanger[2] = left[1]
 			heatExchanger[3] = right[1]
