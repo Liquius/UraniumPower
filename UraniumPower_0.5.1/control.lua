@@ -208,9 +208,9 @@ function do_heat_exchange()
 				local heatCapacity2 = 1
 
 				if LHeatExchanger[2].fluidbox[1].type == "pressurised-water" then
-					maxT1 = 275
+					maxT1 = 300
 					minT1 = 15
-					heatCapacity1 = 1.25
+					heatCapacity1 = 1.5
 				elseif LHeatExchanger[2].fluidbox[1].type == "water" then
 					maxT1 = 100
 					minT1 = 15
@@ -218,9 +218,9 @@ function do_heat_exchange()
 				end
 
 				if LHeatExchanger[3].fluidbox[1].type == "pressurised-water" then
-					maxT2 = 275
+					maxT2 = 300
 					minT2 = 15
-					heatCapacity2 = 1.25
+					heatCapacity2 = 1.5
 				elseif LHeatExchanger[3].fluidbox[1].type == "water" then
 					maxT2 = 100
 					minT2 = 15

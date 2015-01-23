@@ -247,6 +247,8 @@ data:extend({
         percent = 70
       }
     },
+
+    --__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png
     pictures =
     {
       single =
@@ -254,18 +256,18 @@ data:extend({
         layers = 
         {
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-single.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 22,
-            height = 42,
-            shift = {0, -0.15625}
+            width = 64,
+            height = 64,
+            --shift = {0, -0.15625}
           },
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-single-shadow.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 47,
-            height = 32,
-            shift = {0.359375, 0.5},
+            width = 64,
+            height = 64,
+            --shift = {0.359375, 0.5},
             draw_as_shadow = true
           }
         }
@@ -276,18 +278,18 @@ data:extend({
           layers =
           {
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-vertical-1.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 22,
-              height = 42,
-              shift = {0, -0.15625}
+              width = 64,
+              height = 64,
+              --shift = {0, -0.15625}
             },
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-vertical-shadow.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 47,
-              height = 60,
-              shift = {0.390625, 0.625},
+              width = 64,
+              height = 64,
+              --shift = {0.390625, 0.625},
               draw_as_shadow = true
             }
           }
@@ -296,18 +298,18 @@ data:extend({
           layers =
           {
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-vertical-2.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 22,
-              height = 42,
-              shift = {0, -0.15625}
+              width = 64,
+              height = 64,
+              --shift = {0, -0.15625}
             },
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-vertical-shadow.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 47,
-              height = 60,
-              shift = {0.390625, 0.625},
+              width = 64,
+              height = 64,
+              --shift = {0.390625, 0.625},
               draw_as_shadow = true
             }
           }
@@ -316,18 +318,18 @@ data:extend({
           layers =
           {
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-vertical-3.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 22,
-              height = 42,
-              shift = {0, -0.15625}
+              width = 64,
+              height = 64,
+              --shift = {0, -0.15625}
             },
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-vertical-shadow.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 47,
-              height = 60,
-              shift = {0.390625, 0.625},
+              width = 64,
+              height = 64,
+              --shift = {0.390625, 0.625},
               draw_as_shadow = true
             }
           }
@@ -339,18 +341,18 @@ data:extend({
           layers =
           {
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-horizontal-1.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 32,
-              height = 42,
-              shift = {0, -0.15625}
+              width = 64,
+              height = 64,
+              --shift = {0, -0.15625}
             },
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-horizontal-shadow.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 59,
-              height = 32,
-              shift = {0.421875, 0.5},
+              width = 64,
+              height = 64,
+              --shift = {0.421875, 0.5},
               draw_as_shadow = true
             }
           }
@@ -359,18 +361,18 @@ data:extend({
           layers =
           {
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-horizontal-2.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 32,
-              height = 42,
-              shift = {0, -0.15625}
+              width = 64,
+              height = 64,
+              --shift = {0, -0.15625}
             },
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-horizontal-shadow.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 59,
-              height = 32,
-              shift = {0.421875, 0.5},
+              width = 64,
+              height = 64,
+              --shift = {0.421875, 0.5},
               draw_as_shadow = true
             }
           }
@@ -379,18 +381,18 @@ data:extend({
           layers =
           {
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-horizontal-3.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 32,
-              height = 42,
-              shift = {0, -0.15625}
+              width = 64,
+              height = 64,
+              --shift = {0, -0.15625}
             },
             {
-              filename = "__base__/graphics/entity/stone-wall/wall-straight-horizontal-shadow.png",
+              filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
               priority = "extra-high",
-              width = 59,
-              height = 32,
-              shift = {0.421875, 0.5},
+              width = 64,
+              height = 64,
+              --shift = {0.421875, 0.5},
               draw_as_shadow = true
             }
           }
@@ -401,18 +403,18 @@ data:extend({
         layers =
         {
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-corner-right-down.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 27,
-            height = 42,
-            shift = {0.078125, -0.15625}
+            width = 64,
+            height = 64,
+            --shift = {0.078125, -0.15625}
           },
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-corner-right-down-shadow.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 53,
-            height = 61,
-            shift = {0.484375, 0.640625},
+            width = 64,
+            height = 64,
+            --shift = {0.484375, 0.640625},
             draw_as_shadow = true
           }
         }
@@ -422,18 +424,18 @@ data:extend({
         layers =
         {
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-corner-left-down.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 27,
-            height = 42,
-            shift = {-0.078125, -0.15625}
+            width = 64,
+            height = 64,
+            --shift = {-0.078125, -0.15625}
           },
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-corner-left-down-shadow.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 53,
-            height = 60,
-            shift = {0.328125, 0.640625},
+            width = 64,
+            height = 64,
+            --shift = {0.328125, 0.640625},
             draw_as_shadow = true
           }
         }
@@ -443,18 +445,18 @@ data:extend({
         layers =
         {
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-t-down.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 32,
-            height = 42,
-            shift = {0, -0.15625}
+            width = 64,
+            height = 64,
+            --shift = {0, -0.15625}
           },
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-t-down-shadow.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 71,
-            height = 61,
-            shift = {0.546875, 0.640625},
+            width = 64,
+            height = 64,
+            --shift = {0.546875, 0.640625},
             draw_as_shadow = true
           }
         }
@@ -464,18 +466,18 @@ data:extend({
         layers =
         {
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-ending-right.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 27,
-            height = 42,
-            shift = {0.078125, -0.15625}
+            width = 64,
+            height = 64,
+            --shift = {0.078125, -0.15625}
           },
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-ending-right-shadow.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 53,
-            height = 32,
-            shift = {0.484375, 0.5},
+            width = 64,
+            height = 64,
+            --shift = {0.484375, 0.5},
             draw_as_shadow = true
           }
         }
@@ -485,18 +487,18 @@ data:extend({
         layers =
         {
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-ending-left.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 27,
-            height = 42,
-            shift = {-0.078125, -0.15625}
+            width = 64,
+            height = 64,
+            --shift = {-0.078125, -0.15625}
           },
           {
-            filename = "__base__/graphics/entity/stone-wall/wall-ending-left-shadow.png",
+            filename = "__UraniumPower__/graphics/entity/heat-exchanger/heat-exchanger.png",
             priority = "extra-high",
-            width = 53,
-            height = 32,
-            shift = {0.328125, 0.5},
+            width = 64,
+            height = 64,
+            --shift = {0.328125, 0.5},
             draw_as_shadow = true
           }
         }
